@@ -614,6 +614,7 @@
         </Property>
       </Properties>
       <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a1ButtonActionPerformed"/>
       </Events>
     </Component>
@@ -626,6 +627,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="a2Button">
       <Properties>
@@ -636,6 +640,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="b2Button">
       <Properties>
@@ -646,6 +653,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="c1Button">
       <Properties>
@@ -656,6 +666,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="c2Button">
       <Properties>
@@ -666,6 +679,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="a4Button">
       <Properties>
@@ -676,6 +692,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="a5Button">
       <Properties>
@@ -686,6 +705,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="b3Button">
       <Properties>
@@ -706,6 +728,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="b5Button">
       <Properties>
@@ -716,6 +741,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="a3Button">
       <Properties>
@@ -727,7 +755,7 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a3ButtonActionPerformed"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="c4Button">
@@ -739,6 +767,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="c5Button">
       <Properties>
@@ -749,6 +780,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="c3Button">
       <Properties>
@@ -759,6 +793,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="b6Button">
       <Properties>
@@ -769,6 +806,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="c9Button">
       <Properties>
@@ -779,6 +819,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="a7Button">
       <Properties>
@@ -789,6 +832,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="c10Button">
       <Properties>
@@ -799,6 +845,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="b7Button">
       <Properties>
@@ -809,6 +858,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="c8Button">
       <Properties>
@@ -819,6 +871,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="c6Button">
       <Properties>
@@ -829,6 +884,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="c7Button">
       <Properties>
@@ -839,6 +897,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="a9Button">
       <Properties>
@@ -849,6 +910,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="a10Button">
       <Properties>
@@ -859,6 +923,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="b8Button">
       <Properties>
@@ -869,6 +936,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="b9Button">
       <Properties>
@@ -879,6 +949,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="b10Button">
       <Properties>
@@ -889,6 +962,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="a6Button">
       <Properties>
@@ -899,6 +975,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="a8Button">
       <Properties>
@@ -909,6 +988,9 @@
           <Color blue="0" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="e1Button">
       <Properties>

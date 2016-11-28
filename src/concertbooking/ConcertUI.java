@@ -5,7 +5,11 @@
  */
 package concertbooking;
 
+import java.awt.Color;
+import java.util.Random;
 import javax.swing.JOptionPane;
+import javax.swing.JButton;
+
 
 /**
  *
@@ -19,6 +23,7 @@ public class ConcertUI extends javax.swing.JFrame {
     private double _bronzePrice =0;
     private double _silverPrice =0;
     private double _goldPrice =0;
+   
     
     public double getGoldPrice(){
         return _goldPrice;
@@ -29,6 +34,8 @@ public class ConcertUI extends javax.swing.JFrame {
     public double getBronzePrice(){
         return _bronzePrice;
     }
+    
+    
     
     public ConcertUI() {
         initComponents();
@@ -220,6 +227,11 @@ public class ConcertUI extends javax.swing.JFrame {
 
         a1Button.setBackground(new java.awt.Color(255, 204, 0));
         a1Button.setForeground(new java.awt.Color(255, 204, 0));
+        a1Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
         a1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a1ButtonActionPerformed(evt);
@@ -228,95 +240,230 @@ public class ConcertUI extends javax.swing.JFrame {
 
         b1Button.setBackground(new java.awt.Color(255, 204, 0));
         b1Button.setForeground(new java.awt.Color(255, 204, 0));
+        b1Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         a2Button.setBackground(new java.awt.Color(255, 204, 0));
         a2Button.setForeground(new java.awt.Color(255, 204, 0));
+        a2Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         b2Button.setBackground(new java.awt.Color(255, 204, 0));
         b2Button.setForeground(new java.awt.Color(255, 204, 0));
+        b2Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         c1Button.setBackground(new java.awt.Color(255, 204, 0));
         c1Button.setForeground(new java.awt.Color(255, 204, 0));
+        c1Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         c2Button.setBackground(new java.awt.Color(255, 204, 0));
         c2Button.setForeground(new java.awt.Color(255, 204, 0));
+        c2Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         a4Button.setBackground(new java.awt.Color(255, 204, 0));
         a4Button.setForeground(new java.awt.Color(255, 204, 0));
+        a4Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         a5Button.setBackground(new java.awt.Color(255, 204, 0));
         a5Button.setForeground(new java.awt.Color(255, 204, 0));
+        a5Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         b3Button.setBackground(new java.awt.Color(255, 204, 0));
         b3Button.setForeground(new java.awt.Color(255, 204, 0));
 
         b4Button.setBackground(new java.awt.Color(255, 204, 0));
         b4Button.setForeground(new java.awt.Color(255, 204, 0));
+        b4Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         b5Button.setBackground(new java.awt.Color(255, 204, 0));
         b5Button.setForeground(new java.awt.Color(255, 204, 0));
+        b5Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         a3Button.setBackground(new java.awt.Color(255, 204, 0));
         a3Button.setForeground(new java.awt.Color(255, 204, 0));
-        a3Button.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                a3ButtonActionPerformed(evt);
+        a3Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
             }
         });
 
         c4Button.setBackground(new java.awt.Color(255, 204, 0));
         c4Button.setForeground(new java.awt.Color(255, 204, 0));
+        c4Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         c5Button.setBackground(new java.awt.Color(255, 204, 0));
         c5Button.setForeground(new java.awt.Color(255, 204, 0));
+        c5Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         c3Button.setBackground(new java.awt.Color(255, 204, 0));
         c3Button.setForeground(new java.awt.Color(255, 204, 0));
+        c3Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         b6Button.setBackground(new java.awt.Color(255, 204, 0));
         b6Button.setForeground(new java.awt.Color(255, 204, 0));
+        b6Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         c9Button.setBackground(new java.awt.Color(255, 204, 0));
         c9Button.setForeground(new java.awt.Color(255, 204, 0));
+        c9Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         a7Button.setBackground(new java.awt.Color(255, 204, 0));
         a7Button.setForeground(new java.awt.Color(255, 204, 0));
+        a7Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         c10Button.setBackground(new java.awt.Color(255, 204, 0));
         c10Button.setForeground(new java.awt.Color(255, 204, 0));
+        c10Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         b7Button.setBackground(new java.awt.Color(255, 204, 0));
         b7Button.setForeground(new java.awt.Color(255, 204, 0));
+        b7Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         c8Button.setBackground(new java.awt.Color(255, 204, 0));
         c8Button.setForeground(new java.awt.Color(255, 204, 0));
+        c8Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         c6Button.setBackground(new java.awt.Color(255, 204, 0));
         c6Button.setForeground(new java.awt.Color(255, 204, 0));
+        c6Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         c7Button.setBackground(new java.awt.Color(255, 204, 0));
         c7Button.setForeground(new java.awt.Color(255, 204, 0));
+        c7Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         a9Button.setBackground(new java.awt.Color(255, 204, 0));
         a9Button.setForeground(new java.awt.Color(255, 204, 0));
+        a9Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         a10Button.setBackground(new java.awt.Color(255, 204, 0));
         a10Button.setForeground(new java.awt.Color(255, 204, 0));
+        a10Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         b8Button.setBackground(new java.awt.Color(255, 204, 0));
         b8Button.setForeground(new java.awt.Color(255, 204, 0));
+        b8Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         b9Button.setBackground(new java.awt.Color(255, 204, 0));
         b9Button.setForeground(new java.awt.Color(255, 204, 0));
+        b9Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         b10Button.setBackground(new java.awt.Color(255, 204, 0));
         b10Button.setForeground(new java.awt.Color(255, 204, 0));
+        b10Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         a6Button.setBackground(new java.awt.Color(255, 204, 0));
         a6Button.setForeground(new java.awt.Color(255, 204, 0));
+        a6Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         a8Button.setBackground(new java.awt.Color(255, 204, 0));
         a8Button.setForeground(new java.awt.Color(255, 204, 0));
+        a8Button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookGoldSeat(evt);
+            }
+        });
 
         e1Button.setBackground(new java.awt.Color(204, 204, 204));
         e1Button.setForeground(new java.awt.Color(204, 204, 204));
@@ -1079,9 +1226,33 @@ public class ConcertUI extends javax.swing.JFrame {
        System.exit(0); // TODO add your handling code here:
     }//GEN-LAST:event_exitButtonActionPerformed
 
-    private void a3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a3ButtonActionPerformed
+    private void bookGoldSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookGoldSeat
         // TODO add your handling code here:
-    }//GEN-LAST:event_a3ButtonActionPerformed
+        
+        String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
+        if(purchaserName == null)
+            {
+               
+            }
+        else if(purchaserName.equals(""))
+        {
+            JOptionPane.showMessageDialog(null,"Please enter a valid purchaser name.");
+            bookGoldSeat(evt);
+        }
+        else
+        {
+        JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
+        boolean hasBackstagePass = false;
+        Random r = new Random();
+        int chance = r.nextInt(11);
+        if (chance == 2)
+       {
+            hasBackstagePass = true;
+            JOptionPane.showMessageDialog(null,"The purchaser of this seat has one a backstage pass for tonights concert.");
+       }
+        evt.getComponent().setBackground(Color.red);
+        }
+    }//GEN-LAST:event_bookGoldSeat
 
     /**
      * @param args the command line arguments
