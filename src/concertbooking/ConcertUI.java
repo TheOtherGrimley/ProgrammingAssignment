@@ -58,96 +58,96 @@ public class ConcertUI extends javax.swing.JFrame {
         checkIfBookedButton = new javax.swing.JButton();
         bookingsByCustomerButton = new javax.swing.JButton();
         exitButton = new javax.swing.JButton();
-        a1Button = new javax.swing.JButton();
-        b1Button = new javax.swing.JButton();
-        a2Button = new javax.swing.JButton();
-        b2Button = new javax.swing.JButton();
-        c1Button = new javax.swing.JButton();
-        c2Button = new javax.swing.JButton();
-        a4Button = new javax.swing.JButton();
-        a5Button = new javax.swing.JButton();
-        b3Button = new javax.swing.JButton();
-        b4Button = new javax.swing.JButton();
-        b5Button = new javax.swing.JButton();
-        a3Button = new javax.swing.JButton();
-        c4Button = new javax.swing.JButton();
-        c5Button = new javax.swing.JButton();
-        c3Button = new javax.swing.JButton();
-        b6Button = new javax.swing.JButton();
-        c9Button = new javax.swing.JButton();
-        a7Button = new javax.swing.JButton();
-        c10Button = new javax.swing.JButton();
-        b7Button = new javax.swing.JButton();
-        c8Button = new javax.swing.JButton();
-        c6Button = new javax.swing.JButton();
-        c7Button = new javax.swing.JButton();
-        a9Button = new javax.swing.JButton();
-        a10Button = new javax.swing.JButton();
-        b8Button = new javax.swing.JButton();
-        b9Button = new javax.swing.JButton();
-        b10Button = new javax.swing.JButton();
-        a6Button = new javax.swing.JButton();
-        a8Button = new javax.swing.JButton();
-        e1Button = new javax.swing.JButton();
-        d2Button = new javax.swing.JButton();
-        e2Button = new javax.swing.JButton();
-        f1Button = new javax.swing.JButton();
-        f2Button = new javax.swing.JButton();
-        d4Button = new javax.swing.JButton();
-        d5Button = new javax.swing.JButton();
-        e3Button = new javax.swing.JButton();
-        e4Button = new javax.swing.JButton();
-        e5Button = new javax.swing.JButton();
-        d1Button = new javax.swing.JButton();
-        d3Button = new javax.swing.JButton();
-        f4Button = new javax.swing.JButton();
-        f5Button = new javax.swing.JButton();
-        f3Button = new javax.swing.JButton();
-        e6Button = new javax.swing.JButton();
-        d7Button = new javax.swing.JButton();
-        e7Button = new javax.swing.JButton();
-        f6Button = new javax.swing.JButton();
-        f7Button = new javax.swing.JButton();
-        d9Button = new javax.swing.JButton();
-        d10Button = new javax.swing.JButton();
-        e8Button = new javax.swing.JButton();
-        e9Button = new javax.swing.JButton();
-        e10Button = new javax.swing.JButton();
-        d6Button = new javax.swing.JButton();
-        d8Button = new javax.swing.JButton();
-        f9Button = new javax.swing.JButton();
-        f10Button = new javax.swing.JButton();
-        f8Button = new javax.swing.JButton();
-        h1Button = new javax.swing.JButton();
-        g2Button = new javax.swing.JButton();
-        h2Button = new javax.swing.JButton();
-        i1Button = new javax.swing.JButton();
-        i2Button = new javax.swing.JButton();
-        g4Button = new javax.swing.JButton();
-        g5Button = new javax.swing.JButton();
-        h3Button = new javax.swing.JButton();
-        h4Button = new javax.swing.JButton();
-        h5Button = new javax.swing.JButton();
-        g1Button = new javax.swing.JButton();
-        g3Button = new javax.swing.JButton();
-        i4Button = new javax.swing.JButton();
-        i5Button = new javax.swing.JButton();
-        i3Button = new javax.swing.JButton();
-        h6Button = new javax.swing.JButton();
-        g7Button = new javax.swing.JButton();
-        h7Button = new javax.swing.JButton();
-        i6Button = new javax.swing.JButton();
-        i7Button = new javax.swing.JButton();
-        g9Button = new javax.swing.JButton();
-        g10Button = new javax.swing.JButton();
-        h8Button = new javax.swing.JButton();
-        h9Button = new javax.swing.JButton();
-        h10Button = new javax.swing.JButton();
-        g6Button = new javax.swing.JButton();
-        g8Button = new javax.swing.JButton();
-        i9Button = new javax.swing.JButton();
-        i10Button = new javax.swing.JButton();
-        i8Button = new javax.swing.JButton();
+        a01 = new javax.swing.JButton();
+        b01 = new javax.swing.JButton();
+        a02 = new javax.swing.JButton();
+        b02 = new javax.swing.JButton();
+        c01 = new javax.swing.JButton();
+        c02 = new javax.swing.JButton();
+        a04 = new javax.swing.JButton();
+        a05 = new javax.swing.JButton();
+        b03 = new javax.swing.JButton();
+        b04 = new javax.swing.JButton();
+        b05 = new javax.swing.JButton();
+        a03 = new javax.swing.JButton();
+        c04 = new javax.swing.JButton();
+        c05 = new javax.swing.JButton();
+        c03 = new javax.swing.JButton();
+        b06 = new javax.swing.JButton();
+        c09 = new javax.swing.JButton();
+        a07 = new javax.swing.JButton();
+        c10 = new javax.swing.JButton();
+        b07 = new javax.swing.JButton();
+        c08 = new javax.swing.JButton();
+        c06 = new javax.swing.JButton();
+        c07 = new javax.swing.JButton();
+        a09 = new javax.swing.JButton();
+        a10 = new javax.swing.JButton();
+        b08 = new javax.swing.JButton();
+        b09 = new javax.swing.JButton();
+        b10 = new javax.swing.JButton();
+        a06 = new javax.swing.JButton();
+        a08 = new javax.swing.JButton();
+        e01 = new javax.swing.JButton();
+        d02 = new javax.swing.JButton();
+        e02 = new javax.swing.JButton();
+        f01 = new javax.swing.JButton();
+        f02 = new javax.swing.JButton();
+        d04 = new javax.swing.JButton();
+        d05 = new javax.swing.JButton();
+        e03 = new javax.swing.JButton();
+        e04 = new javax.swing.JButton();
+        e05 = new javax.swing.JButton();
+        d01 = new javax.swing.JButton();
+        d03 = new javax.swing.JButton();
+        f04 = new javax.swing.JButton();
+        f05 = new javax.swing.JButton();
+        f03 = new javax.swing.JButton();
+        e06 = new javax.swing.JButton();
+        d07 = new javax.swing.JButton();
+        e07 = new javax.swing.JButton();
+        f06 = new javax.swing.JButton();
+        f07 = new javax.swing.JButton();
+        d09 = new javax.swing.JButton();
+        d10 = new javax.swing.JButton();
+        e08 = new javax.swing.JButton();
+        e09 = new javax.swing.JButton();
+        e10 = new javax.swing.JButton();
+        d06 = new javax.swing.JButton();
+        d08 = new javax.swing.JButton();
+        f09 = new javax.swing.JButton();
+        f10 = new javax.swing.JButton();
+        f08 = new javax.swing.JButton();
+        h01 = new javax.swing.JButton();
+        g02 = new javax.swing.JButton();
+        h02 = new javax.swing.JButton();
+        i01 = new javax.swing.JButton();
+        i02 = new javax.swing.JButton();
+        g04 = new javax.swing.JButton();
+        g05 = new javax.swing.JButton();
+        h03 = new javax.swing.JButton();
+        h04 = new javax.swing.JButton();
+        h05 = new javax.swing.JButton();
+        g01 = new javax.swing.JButton();
+        g03 = new javax.swing.JButton();
+        i04 = new javax.swing.JButton();
+        i05 = new javax.swing.JButton();
+        i03 = new javax.swing.JButton();
+        h06 = new javax.swing.JButton();
+        g07 = new javax.swing.JButton();
+        h07 = new javax.swing.JButton();
+        i06 = new javax.swing.JButton();
+        i07 = new javax.swing.JButton();
+        g09 = new javax.swing.JButton();
+        g10 = new javax.swing.JButton();
+        h08 = new javax.swing.JButton();
+        h09 = new javax.swing.JButton();
+        h10 = new javax.swing.JButton();
+        g06 = new javax.swing.JButton();
+        g08 = new javax.swing.JButton();
+        i09 = new javax.swing.JButton();
+        i10 = new javax.swing.JButton();
+        i08 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
@@ -225,430 +225,430 @@ public class ConcertUI extends javax.swing.JFrame {
             }
         });
 
-        a1Button.setBackground(new java.awt.Color(255, 204, 0));
-        a1Button.setForeground(new java.awt.Color(255, 204, 0));
-        a1Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        a01.setBackground(new java.awt.Color(255, 204, 0));
+        a01.setForeground(new java.awt.Color(255, 204, 0));
+        a01.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
-        a1Button.addActionListener(new java.awt.event.ActionListener() {
+        a01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                a1ButtonActionPerformed(evt);
+                a01ActionPerformed(evt);
             }
         });
 
-        b1Button.setBackground(new java.awt.Color(255, 204, 0));
-        b1Button.setForeground(new java.awt.Color(255, 204, 0));
-        b1Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        b01.setBackground(new java.awt.Color(255, 204, 0));
+        b01.setForeground(new java.awt.Color(255, 204, 0));
+        b01.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        a2Button.setBackground(new java.awt.Color(255, 204, 0));
-        a2Button.setForeground(new java.awt.Color(255, 204, 0));
-        a2Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        a02.setBackground(new java.awt.Color(255, 204, 0));
+        a02.setForeground(new java.awt.Color(255, 204, 0));
+        a02.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        b2Button.setBackground(new java.awt.Color(255, 204, 0));
-        b2Button.setForeground(new java.awt.Color(255, 204, 0));
-        b2Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        b02.setBackground(new java.awt.Color(255, 204, 0));
+        b02.setForeground(new java.awt.Color(255, 204, 0));
+        b02.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        c1Button.setBackground(new java.awt.Color(255, 204, 0));
-        c1Button.setForeground(new java.awt.Color(255, 204, 0));
-        c1Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        c01.setBackground(new java.awt.Color(255, 204, 0));
+        c01.setForeground(new java.awt.Color(255, 204, 0));
+        c01.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        c2Button.setBackground(new java.awt.Color(255, 204, 0));
-        c2Button.setForeground(new java.awt.Color(255, 204, 0));
-        c2Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        c02.setBackground(new java.awt.Color(255, 204, 0));
+        c02.setForeground(new java.awt.Color(255, 204, 0));
+        c02.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        a4Button.setBackground(new java.awt.Color(255, 204, 0));
-        a4Button.setForeground(new java.awt.Color(255, 204, 0));
-        a4Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        a04.setBackground(new java.awt.Color(255, 204, 0));
+        a04.setForeground(new java.awt.Color(255, 204, 0));
+        a04.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        a5Button.setBackground(new java.awt.Color(255, 204, 0));
-        a5Button.setForeground(new java.awt.Color(255, 204, 0));
-        a5Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        a05.setBackground(new java.awt.Color(255, 204, 0));
+        a05.setForeground(new java.awt.Color(255, 204, 0));
+        a05.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        b3Button.setBackground(new java.awt.Color(255, 204, 0));
-        b3Button.setForeground(new java.awt.Color(255, 204, 0));
+        b03.setBackground(new java.awt.Color(255, 204, 0));
+        b03.setForeground(new java.awt.Color(255, 204, 0));
 
-        b4Button.setBackground(new java.awt.Color(255, 204, 0));
-        b4Button.setForeground(new java.awt.Color(255, 204, 0));
-        b4Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        b04.setBackground(new java.awt.Color(255, 204, 0));
+        b04.setForeground(new java.awt.Color(255, 204, 0));
+        b04.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        b5Button.setBackground(new java.awt.Color(255, 204, 0));
-        b5Button.setForeground(new java.awt.Color(255, 204, 0));
-        b5Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        b05.setBackground(new java.awt.Color(255, 204, 0));
+        b05.setForeground(new java.awt.Color(255, 204, 0));
+        b05.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        a3Button.setBackground(new java.awt.Color(255, 204, 0));
-        a3Button.setForeground(new java.awt.Color(255, 204, 0));
-        a3Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        a03.setBackground(new java.awt.Color(255, 204, 0));
+        a03.setForeground(new java.awt.Color(255, 204, 0));
+        a03.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        c4Button.setBackground(new java.awt.Color(255, 204, 0));
-        c4Button.setForeground(new java.awt.Color(255, 204, 0));
-        c4Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        c04.setBackground(new java.awt.Color(255, 204, 0));
+        c04.setForeground(new java.awt.Color(255, 204, 0));
+        c04.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        c5Button.setBackground(new java.awt.Color(255, 204, 0));
-        c5Button.setForeground(new java.awt.Color(255, 204, 0));
-        c5Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        c05.setBackground(new java.awt.Color(255, 204, 0));
+        c05.setForeground(new java.awt.Color(255, 204, 0));
+        c05.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        c3Button.setBackground(new java.awt.Color(255, 204, 0));
-        c3Button.setForeground(new java.awt.Color(255, 204, 0));
-        c3Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        c03.setBackground(new java.awt.Color(255, 204, 0));
+        c03.setForeground(new java.awt.Color(255, 204, 0));
+        c03.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        b6Button.setBackground(new java.awt.Color(255, 204, 0));
-        b6Button.setForeground(new java.awt.Color(255, 204, 0));
-        b6Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        b06.setBackground(new java.awt.Color(255, 204, 0));
+        b06.setForeground(new java.awt.Color(255, 204, 0));
+        b06.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        c9Button.setBackground(new java.awt.Color(255, 204, 0));
-        c9Button.setForeground(new java.awt.Color(255, 204, 0));
-        c9Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        c09.setBackground(new java.awt.Color(255, 204, 0));
+        c09.setForeground(new java.awt.Color(255, 204, 0));
+        c09.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        a7Button.setBackground(new java.awt.Color(255, 204, 0));
-        a7Button.setForeground(new java.awt.Color(255, 204, 0));
-        a7Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        a07.setBackground(new java.awt.Color(255, 204, 0));
+        a07.setForeground(new java.awt.Color(255, 204, 0));
+        a07.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        c10Button.setBackground(new java.awt.Color(255, 204, 0));
-        c10Button.setForeground(new java.awt.Color(255, 204, 0));
-        c10Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        c10.setBackground(new java.awt.Color(255, 204, 0));
+        c10.setForeground(new java.awt.Color(255, 204, 0));
+        c10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        b7Button.setBackground(new java.awt.Color(255, 204, 0));
-        b7Button.setForeground(new java.awt.Color(255, 204, 0));
-        b7Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        b07.setBackground(new java.awt.Color(255, 204, 0));
+        b07.setForeground(new java.awt.Color(255, 204, 0));
+        b07.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        c8Button.setBackground(new java.awt.Color(255, 204, 0));
-        c8Button.setForeground(new java.awt.Color(255, 204, 0));
-        c8Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        c08.setBackground(new java.awt.Color(255, 204, 0));
+        c08.setForeground(new java.awt.Color(255, 204, 0));
+        c08.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        c6Button.setBackground(new java.awt.Color(255, 204, 0));
-        c6Button.setForeground(new java.awt.Color(255, 204, 0));
-        c6Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        c06.setBackground(new java.awt.Color(255, 204, 0));
+        c06.setForeground(new java.awt.Color(255, 204, 0));
+        c06.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        c7Button.setBackground(new java.awt.Color(255, 204, 0));
-        c7Button.setForeground(new java.awt.Color(255, 204, 0));
-        c7Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        c07.setBackground(new java.awt.Color(255, 204, 0));
+        c07.setForeground(new java.awt.Color(255, 204, 0));
+        c07.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        a9Button.setBackground(new java.awt.Color(255, 204, 0));
-        a9Button.setForeground(new java.awt.Color(255, 204, 0));
-        a9Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        a09.setBackground(new java.awt.Color(255, 204, 0));
+        a09.setForeground(new java.awt.Color(255, 204, 0));
+        a09.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        a10Button.setBackground(new java.awt.Color(255, 204, 0));
-        a10Button.setForeground(new java.awt.Color(255, 204, 0));
-        a10Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        a10.setBackground(new java.awt.Color(255, 204, 0));
+        a10.setForeground(new java.awt.Color(255, 204, 0));
+        a10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        b8Button.setBackground(new java.awt.Color(255, 204, 0));
-        b8Button.setForeground(new java.awt.Color(255, 204, 0));
-        b8Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        b08.setBackground(new java.awt.Color(255, 204, 0));
+        b08.setForeground(new java.awt.Color(255, 204, 0));
+        b08.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        b9Button.setBackground(new java.awt.Color(255, 204, 0));
-        b9Button.setForeground(new java.awt.Color(255, 204, 0));
-        b9Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        b09.setBackground(new java.awt.Color(255, 204, 0));
+        b09.setForeground(new java.awt.Color(255, 204, 0));
+        b09.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        b10Button.setBackground(new java.awt.Color(255, 204, 0));
-        b10Button.setForeground(new java.awt.Color(255, 204, 0));
-        b10Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        b10.setBackground(new java.awt.Color(255, 204, 0));
+        b10.setForeground(new java.awt.Color(255, 204, 0));
+        b10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        a6Button.setBackground(new java.awt.Color(255, 204, 0));
-        a6Button.setForeground(new java.awt.Color(255, 204, 0));
-        a6Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        a06.setBackground(new java.awt.Color(255, 204, 0));
+        a06.setForeground(new java.awt.Color(255, 204, 0));
+        a06.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        a8Button.setBackground(new java.awt.Color(255, 204, 0));
-        a8Button.setForeground(new java.awt.Color(255, 204, 0));
-        a8Button.addMouseListener(new java.awt.event.MouseAdapter() {
+        a08.setBackground(new java.awt.Color(255, 204, 0));
+        a08.setForeground(new java.awt.Color(255, 204, 0));
+        a08.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookGoldSeat(evt);
             }
         });
 
-        e1Button.setBackground(new java.awt.Color(204, 204, 204));
-        e1Button.setForeground(new java.awt.Color(204, 204, 204));
+        e01.setBackground(new java.awt.Color(204, 204, 204));
+        e01.setForeground(new java.awt.Color(204, 204, 204));
 
-        d2Button.setBackground(new java.awt.Color(204, 204, 204));
-        d2Button.setForeground(new java.awt.Color(204, 204, 204));
+        d02.setBackground(new java.awt.Color(204, 204, 204));
+        d02.setForeground(new java.awt.Color(204, 204, 204));
 
-        e2Button.setBackground(new java.awt.Color(204, 204, 204));
-        e2Button.setForeground(new java.awt.Color(204, 204, 204));
+        e02.setBackground(new java.awt.Color(204, 204, 204));
+        e02.setForeground(new java.awt.Color(204, 204, 204));
 
-        f1Button.setBackground(new java.awt.Color(204, 204, 204));
-        f1Button.setForeground(new java.awt.Color(204, 204, 204));
+        f01.setBackground(new java.awt.Color(204, 204, 204));
+        f01.setForeground(new java.awt.Color(204, 204, 204));
 
-        f2Button.setBackground(new java.awt.Color(204, 204, 204));
-        f2Button.setForeground(new java.awt.Color(204, 204, 204));
+        f02.setBackground(new java.awt.Color(204, 204, 204));
+        f02.setForeground(new java.awt.Color(204, 204, 204));
 
-        d4Button.setBackground(new java.awt.Color(204, 204, 204));
-        d4Button.setForeground(new java.awt.Color(204, 204, 204));
+        d04.setBackground(new java.awt.Color(204, 204, 204));
+        d04.setForeground(new java.awt.Color(204, 204, 204));
 
-        d5Button.setBackground(new java.awt.Color(204, 204, 204));
-        d5Button.setForeground(new java.awt.Color(204, 204, 204));
+        d05.setBackground(new java.awt.Color(204, 204, 204));
+        d05.setForeground(new java.awt.Color(204, 204, 204));
 
-        e3Button.setBackground(new java.awt.Color(204, 204, 204));
-        e3Button.setForeground(new java.awt.Color(204, 204, 204));
+        e03.setBackground(new java.awt.Color(204, 204, 204));
+        e03.setForeground(new java.awt.Color(204, 204, 204));
 
-        e4Button.setBackground(new java.awt.Color(204, 204, 204));
-        e4Button.setForeground(new java.awt.Color(204, 204, 204));
+        e04.setBackground(new java.awt.Color(204, 204, 204));
+        e04.setForeground(new java.awt.Color(204, 204, 204));
 
-        e5Button.setBackground(new java.awt.Color(204, 204, 204));
-        e5Button.setForeground(new java.awt.Color(204, 204, 204));
+        e05.setBackground(new java.awt.Color(204, 204, 204));
+        e05.setForeground(new java.awt.Color(204, 204, 204));
 
-        d1Button.setBackground(new java.awt.Color(204, 204, 204));
-        d1Button.setForeground(new java.awt.Color(204, 204, 204));
+        d01.setBackground(new java.awt.Color(204, 204, 204));
+        d01.setForeground(new java.awt.Color(204, 204, 204));
 
-        d3Button.setBackground(new java.awt.Color(204, 204, 204));
-        d3Button.setForeground(new java.awt.Color(204, 204, 204));
+        d03.setBackground(new java.awt.Color(204, 204, 204));
+        d03.setForeground(new java.awt.Color(204, 204, 204));
 
-        f4Button.setBackground(new java.awt.Color(204, 204, 204));
-        f4Button.setForeground(new java.awt.Color(204, 204, 204));
+        f04.setBackground(new java.awt.Color(204, 204, 204));
+        f04.setForeground(new java.awt.Color(204, 204, 204));
 
-        f5Button.setBackground(new java.awt.Color(204, 204, 204));
-        f5Button.setForeground(new java.awt.Color(204, 204, 204));
+        f05.setBackground(new java.awt.Color(204, 204, 204));
+        f05.setForeground(new java.awt.Color(204, 204, 204));
 
-        f3Button.setBackground(new java.awt.Color(204, 204, 204));
-        f3Button.setForeground(new java.awt.Color(204, 204, 204));
+        f03.setBackground(new java.awt.Color(204, 204, 204));
+        f03.setForeground(new java.awt.Color(204, 204, 204));
 
-        e6Button.setBackground(new java.awt.Color(204, 204, 204));
-        e6Button.setForeground(new java.awt.Color(204, 204, 204));
+        e06.setBackground(new java.awt.Color(204, 204, 204));
+        e06.setForeground(new java.awt.Color(204, 204, 204));
 
-        d7Button.setBackground(new java.awt.Color(204, 204, 204));
-        d7Button.setForeground(new java.awt.Color(204, 204, 204));
+        d07.setBackground(new java.awt.Color(204, 204, 204));
+        d07.setForeground(new java.awt.Color(204, 204, 204));
 
-        e7Button.setBackground(new java.awt.Color(204, 204, 204));
-        e7Button.setForeground(new java.awt.Color(204, 204, 204));
+        e07.setBackground(new java.awt.Color(204, 204, 204));
+        e07.setForeground(new java.awt.Color(204, 204, 204));
 
-        f6Button.setBackground(new java.awt.Color(204, 204, 204));
-        f6Button.setForeground(new java.awt.Color(204, 204, 204));
+        f06.setBackground(new java.awt.Color(204, 204, 204));
+        f06.setForeground(new java.awt.Color(204, 204, 204));
 
-        f7Button.setBackground(new java.awt.Color(204, 204, 204));
-        f7Button.setForeground(new java.awt.Color(204, 204, 204));
+        f07.setBackground(new java.awt.Color(204, 204, 204));
+        f07.setForeground(new java.awt.Color(204, 204, 204));
 
-        d9Button.setBackground(new java.awt.Color(204, 204, 204));
-        d9Button.setForeground(new java.awt.Color(204, 204, 204));
+        d09.setBackground(new java.awt.Color(204, 204, 204));
+        d09.setForeground(new java.awt.Color(204, 204, 204));
 
-        d10Button.setBackground(new java.awt.Color(204, 204, 204));
-        d10Button.setForeground(new java.awt.Color(204, 204, 204));
+        d10.setBackground(new java.awt.Color(204, 204, 204));
+        d10.setForeground(new java.awt.Color(204, 204, 204));
 
-        e8Button.setBackground(new java.awt.Color(204, 204, 204));
-        e8Button.setForeground(new java.awt.Color(204, 204, 204));
+        e08.setBackground(new java.awt.Color(204, 204, 204));
+        e08.setForeground(new java.awt.Color(204, 204, 204));
 
-        e9Button.setBackground(new java.awt.Color(204, 204, 204));
-        e9Button.setForeground(new java.awt.Color(204, 204, 204));
+        e09.setBackground(new java.awt.Color(204, 204, 204));
+        e09.setForeground(new java.awt.Color(204, 204, 204));
 
-        e10Button.setBackground(new java.awt.Color(204, 204, 204));
-        e10Button.setForeground(new java.awt.Color(204, 204, 204));
+        e10.setBackground(new java.awt.Color(204, 204, 204));
+        e10.setForeground(new java.awt.Color(204, 204, 204));
 
-        d6Button.setBackground(new java.awt.Color(204, 204, 204));
-        d6Button.setForeground(new java.awt.Color(204, 204, 204));
+        d06.setBackground(new java.awt.Color(204, 204, 204));
+        d06.setForeground(new java.awt.Color(204, 204, 204));
 
-        d8Button.setBackground(new java.awt.Color(204, 204, 204));
-        d8Button.setForeground(new java.awt.Color(204, 204, 204));
+        d08.setBackground(new java.awt.Color(204, 204, 204));
+        d08.setForeground(new java.awt.Color(204, 204, 204));
 
-        f9Button.setBackground(new java.awt.Color(204, 204, 204));
-        f9Button.setForeground(new java.awt.Color(204, 204, 204));
+        f09.setBackground(new java.awt.Color(204, 204, 204));
+        f09.setForeground(new java.awt.Color(204, 204, 204));
 
-        f10Button.setBackground(new java.awt.Color(204, 204, 204));
-        f10Button.setForeground(new java.awt.Color(204, 204, 204));
+        f10.setBackground(new java.awt.Color(204, 204, 204));
+        f10.setForeground(new java.awt.Color(204, 204, 204));
 
-        f8Button.setBackground(new java.awt.Color(204, 204, 204));
-        f8Button.setForeground(new java.awt.Color(204, 204, 204));
+        f08.setBackground(new java.awt.Color(204, 204, 204));
+        f08.setForeground(new java.awt.Color(204, 204, 204));
 
-        h1Button.setBackground(new java.awt.Color(102, 51, 0));
-        h1Button.setForeground(new java.awt.Color(102, 51, 0));
+        h01.setBackground(new java.awt.Color(102, 51, 0));
+        h01.setForeground(new java.awt.Color(102, 51, 0));
 
-        g2Button.setBackground(new java.awt.Color(102, 51, 0));
-        g2Button.setForeground(new java.awt.Color(102, 51, 0));
+        g02.setBackground(new java.awt.Color(102, 51, 0));
+        g02.setForeground(new java.awt.Color(102, 51, 0));
 
-        h2Button.setBackground(new java.awt.Color(102, 51, 0));
-        h2Button.setForeground(new java.awt.Color(102, 51, 0));
+        h02.setBackground(new java.awt.Color(102, 51, 0));
+        h02.setForeground(new java.awt.Color(102, 51, 0));
 
-        i1Button.setBackground(new java.awt.Color(102, 51, 0));
-        i1Button.setForeground(new java.awt.Color(102, 51, 0));
+        i01.setBackground(new java.awt.Color(102, 51, 0));
+        i01.setForeground(new java.awt.Color(102, 51, 0));
 
-        i2Button.setBackground(new java.awt.Color(102, 51, 0));
-        i2Button.setForeground(new java.awt.Color(102, 51, 0));
+        i02.setBackground(new java.awt.Color(102, 51, 0));
+        i02.setForeground(new java.awt.Color(102, 51, 0));
 
-        g4Button.setBackground(new java.awt.Color(102, 51, 0));
-        g4Button.setForeground(new java.awt.Color(102, 51, 0));
+        g04.setBackground(new java.awt.Color(102, 51, 0));
+        g04.setForeground(new java.awt.Color(102, 51, 0));
 
-        g5Button.setBackground(new java.awt.Color(102, 51, 0));
-        g5Button.setForeground(new java.awt.Color(102, 51, 0));
+        g05.setBackground(new java.awt.Color(102, 51, 0));
+        g05.setForeground(new java.awt.Color(102, 51, 0));
 
-        h3Button.setBackground(new java.awt.Color(102, 51, 0));
-        h3Button.setForeground(new java.awt.Color(102, 51, 0));
+        h03.setBackground(new java.awt.Color(102, 51, 0));
+        h03.setForeground(new java.awt.Color(102, 51, 0));
 
-        h4Button.setBackground(new java.awt.Color(102, 51, 0));
-        h4Button.setForeground(new java.awt.Color(102, 51, 0));
+        h04.setBackground(new java.awt.Color(102, 51, 0));
+        h04.setForeground(new java.awt.Color(102, 51, 0));
 
-        h5Button.setBackground(new java.awt.Color(102, 51, 0));
-        h5Button.setForeground(new java.awt.Color(102, 51, 0));
+        h05.setBackground(new java.awt.Color(102, 51, 0));
+        h05.setForeground(new java.awt.Color(102, 51, 0));
 
-        g1Button.setBackground(new java.awt.Color(102, 51, 0));
-        g1Button.setForeground(new java.awt.Color(102, 51, 0));
+        g01.setBackground(new java.awt.Color(102, 51, 0));
+        g01.setForeground(new java.awt.Color(102, 51, 0));
 
-        g3Button.setBackground(new java.awt.Color(102, 51, 0));
-        g3Button.setForeground(new java.awt.Color(102, 51, 0));
+        g03.setBackground(new java.awt.Color(102, 51, 0));
+        g03.setForeground(new java.awt.Color(102, 51, 0));
 
-        i4Button.setBackground(new java.awt.Color(102, 51, 0));
-        i4Button.setForeground(new java.awt.Color(102, 51, 0));
+        i04.setBackground(new java.awt.Color(102, 51, 0));
+        i04.setForeground(new java.awt.Color(102, 51, 0));
 
-        i5Button.setBackground(new java.awt.Color(102, 51, 0));
-        i5Button.setForeground(new java.awt.Color(102, 51, 0));
+        i05.setBackground(new java.awt.Color(102, 51, 0));
+        i05.setForeground(new java.awt.Color(102, 51, 0));
 
-        i3Button.setBackground(new java.awt.Color(102, 51, 0));
-        i3Button.setForeground(new java.awt.Color(102, 51, 0));
+        i03.setBackground(new java.awt.Color(102, 51, 0));
+        i03.setForeground(new java.awt.Color(102, 51, 0));
 
-        h6Button.setBackground(new java.awt.Color(102, 51, 0));
-        h6Button.setForeground(new java.awt.Color(102, 51, 0));
+        h06.setBackground(new java.awt.Color(102, 51, 0));
+        h06.setForeground(new java.awt.Color(102, 51, 0));
 
-        g7Button.setBackground(new java.awt.Color(102, 51, 0));
-        g7Button.setForeground(new java.awt.Color(102, 51, 0));
+        g07.setBackground(new java.awt.Color(102, 51, 0));
+        g07.setForeground(new java.awt.Color(102, 51, 0));
 
-        h7Button.setBackground(new java.awt.Color(102, 51, 0));
-        h7Button.setForeground(new java.awt.Color(102, 51, 0));
+        h07.setBackground(new java.awt.Color(102, 51, 0));
+        h07.setForeground(new java.awt.Color(102, 51, 0));
 
-        i6Button.setBackground(new java.awt.Color(102, 51, 0));
-        i6Button.setForeground(new java.awt.Color(102, 51, 0));
+        i06.setBackground(new java.awt.Color(102, 51, 0));
+        i06.setForeground(new java.awt.Color(102, 51, 0));
 
-        i7Button.setBackground(new java.awt.Color(102, 51, 0));
-        i7Button.setForeground(new java.awt.Color(102, 51, 0));
+        i07.setBackground(new java.awt.Color(102, 51, 0));
+        i07.setForeground(new java.awt.Color(102, 51, 0));
 
-        g9Button.setBackground(new java.awt.Color(102, 51, 0));
-        g9Button.setForeground(new java.awt.Color(102, 51, 0));
+        g09.setBackground(new java.awt.Color(102, 51, 0));
+        g09.setForeground(new java.awt.Color(102, 51, 0));
 
-        g10Button.setBackground(new java.awt.Color(102, 51, 0));
-        g10Button.setForeground(new java.awt.Color(102, 51, 0));
+        g10.setBackground(new java.awt.Color(102, 51, 0));
+        g10.setForeground(new java.awt.Color(102, 51, 0));
 
-        h8Button.setBackground(new java.awt.Color(102, 51, 0));
-        h8Button.setForeground(new java.awt.Color(102, 51, 0));
+        h08.setBackground(new java.awt.Color(102, 51, 0));
+        h08.setForeground(new java.awt.Color(102, 51, 0));
 
-        h9Button.setBackground(new java.awt.Color(102, 51, 0));
-        h9Button.setForeground(new java.awt.Color(102, 51, 0));
+        h09.setBackground(new java.awt.Color(102, 51, 0));
+        h09.setForeground(new java.awt.Color(102, 51, 0));
 
-        h10Button.setBackground(new java.awt.Color(102, 51, 0));
-        h10Button.setForeground(new java.awt.Color(102, 51, 0));
+        h10.setBackground(new java.awt.Color(102, 51, 0));
+        h10.setForeground(new java.awt.Color(102, 51, 0));
 
-        g6Button.setBackground(new java.awt.Color(102, 51, 0));
-        g6Button.setForeground(new java.awt.Color(102, 51, 0));
+        g06.setBackground(new java.awt.Color(102, 51, 0));
+        g06.setForeground(new java.awt.Color(102, 51, 0));
 
-        g8Button.setBackground(new java.awt.Color(102, 51, 0));
-        g8Button.setForeground(new java.awt.Color(102, 51, 0));
+        g08.setBackground(new java.awt.Color(102, 51, 0));
+        g08.setForeground(new java.awt.Color(102, 51, 0));
 
-        i9Button.setBackground(new java.awt.Color(102, 51, 0));
-        i9Button.setForeground(new java.awt.Color(102, 51, 0));
-        i9Button.addActionListener(new java.awt.event.ActionListener() {
+        i09.setBackground(new java.awt.Color(102, 51, 0));
+        i09.setForeground(new java.awt.Color(102, 51, 0));
+        i09.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                i9ButtonActionPerformed(evt);
+                i09ActionPerformed(evt);
             }
         });
 
-        i10Button.setBackground(new java.awt.Color(102, 51, 0));
-        i10Button.setForeground(new java.awt.Color(102, 51, 0));
+        i10.setBackground(new java.awt.Color(102, 51, 0));
+        i10.setForeground(new java.awt.Color(102, 51, 0));
 
-        i8Button.setBackground(new java.awt.Color(102, 51, 0));
-        i8Button.setForeground(new java.awt.Color(102, 51, 0));
+        i08.setBackground(new java.awt.Color(102, 51, 0));
+        i08.setForeground(new java.awt.Color(102, 51, 0));
 
         jPanel1.setBackground(new java.awt.Color(0, 255, 51));
 
@@ -787,193 +787,193 @@ public class ConcertUI extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(i1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(h1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(g1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(i01, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(h01, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(g01, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(g2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(g02, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(g3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(g03, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(g4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(g04, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(g5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(g05, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(h2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(h02, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(h3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(h03, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(h4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(h04, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(h5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(h05, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(i2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(i02, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(i3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(i03, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(i4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(i04, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(i5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(i05, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(f1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(e1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(d1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(f01, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(e01, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(d01, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(d2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(d02, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(d3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(d03, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(d4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(d04, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(d5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(d05, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(e2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(e02, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(e3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(e03, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(e4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(e04, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(e5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(e05, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(f2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(f02, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(f3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(f03, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(f4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(f04, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(f5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(f05, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(c1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(b1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(c01, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(b01, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(a01, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(a2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(a02, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(a3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(a03, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(a4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(a04, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(a5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(a05, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(b2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(b02, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(b3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(b03, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(b4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(b04, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(b5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(b05, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(c2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(c02, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(c3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(c03, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(c4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(c04, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(c5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(c05, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.LEADING))
                         .addGap(181, 181, 181)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(f6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(e6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(d6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(f06, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(e06, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(d06, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(d7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(d07, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(d8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(d08, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(d9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(d09, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(d10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(d10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(e7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(e07, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(e8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(e08, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(e9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(e09, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(e10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(e10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(f7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(f07, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(f8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(f08, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(f9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(f09, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(f10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(f10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(c6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(b6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(c06, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(b06, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(a06, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(a7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(a07, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(a8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(a08, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(a9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(a09, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(a10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(a10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(b7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(b07, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(b8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(b08, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(b9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(b09, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(b10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(b10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(c7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(c07, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(c8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(c08, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(c9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(c09, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(c10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(c10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(i6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(h6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(g6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(i06, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(h06, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(g06, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(g7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(g07, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(g8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(g08, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(g9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(g09, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(g10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(g10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(h7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(h07, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(h8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(h08, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(h9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(h09, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(h10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(h10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(i7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(i07, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(i8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(i08, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(i9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(i09, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(i10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(i10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING))))
                 .addGap(0, 97, Short.MAX_VALUE))
         );
@@ -1006,78 +1006,78 @@ public class ConcertUI extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(a1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a01, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a02, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a03, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a04, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a05, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(b1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(b2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(b3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(b4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(b5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(b01, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(b02, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(b03, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(b04, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(b05, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.TRAILING))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(c1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(c2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(c3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(c4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(c5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(c01, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(c02, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(c03, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(c04, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(c05, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel9, javax.swing.GroupLayout.Alignment.TRAILING))
                         .addGap(35, 35, 35)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(d6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(d7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(d8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(d9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(d10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(d06, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(d07, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(d08, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(d09, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(d10, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(e6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(e7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(e8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(e9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(e10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(e06, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(e07, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(e08, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(e09, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(e10, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(f6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(f7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(f8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(f9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(f10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(f06, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(f07, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(f08, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(f09, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(f10, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel10)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(d1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(d2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(d3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(d4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(d5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(d01, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(d02, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(d03, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(d04, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(d05, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(e1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(e2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(e3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(e4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(e5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(e01, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(e02, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(e03, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(e04, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(e05, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addComponent(jLabel11))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(f1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(f2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(f3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(f4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(f5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(f01, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(f02, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(f03, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(f04, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(f05, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(11, 11, 11)
                                         .addComponent(jLabel12)))))
@@ -1085,50 +1085,50 @@ public class ConcertUI extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(g6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(g7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(g8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(g9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(g10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(g06, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(g07, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(g08, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(g09, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(g10, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(h6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(h7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(h8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(h9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(h10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(h06, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(h07, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(h08, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(h09, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(h10, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(i6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(i7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(i8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(i9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(i10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(i06, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(i07, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(i08, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(i09, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(i10, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel13)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(g1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(g2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(g3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(g4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(g5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(g01, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(g02, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(g03, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(g04, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(g05, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(h1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(h2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(h3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(h4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(h5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(h01, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(h02, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(h03, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(h04, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(h05, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(i1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(i2Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(i3Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(i4Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(i5Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(i01, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(i02, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(i03, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(i04, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(i05, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                         .addGap(11, 11, 11)
                                         .addComponent(jLabel14)
@@ -1136,25 +1136,25 @@ public class ConcertUI extends javax.swing.JFrame {
                                         .addComponent(jLabel15))))))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(a6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(a06, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a07, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a08, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a09, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a10, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(b6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(b7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(b8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(b9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(b10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(b06, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(b07, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(b08, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(b09, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(b10, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(c6Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(c7Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(c8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(c9Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(c10Button, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addComponent(c06, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(c07, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(c08, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(c09, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(c10, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))))
         );
 
         pack();
@@ -1164,13 +1164,13 @@ public class ConcertUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_newConcertButtonActionPerformed
 
-    private void i9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i9ButtonActionPerformed
+    private void i09ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i09ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_i9ButtonActionPerformed
+    }//GEN-LAST:event_i09ActionPerformed
 
-    private void a1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a1ButtonActionPerformed
+    private void a01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a01ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_a1ButtonActionPerformed
+    }//GEN-LAST:event_a01ActionPerformed
 
     private void setBronzePriceButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_setBronzePriceButtonActionPerformed
        // TODO add your handling code here:
@@ -1230,10 +1230,7 @@ public class ConcertUI extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
-        if(purchaserName == null)
-            {
-               
-            }
+        if(purchaserName == null) { }
         else if(purchaserName.equals(""))
         {
             JOptionPane.showMessageDialog(null,"Please enter a valid purchaser name.");
@@ -1241,16 +1238,16 @@ public class ConcertUI extends javax.swing.JFrame {
         }
         else
         {
-        JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
-        boolean hasBackstagePass = false;
-        Random r = new Random();
-        int chance = r.nextInt(11);
-        if (chance == 2)
-       {
-            hasBackstagePass = true;
-            JOptionPane.showMessageDialog(null,"The purchaser of this seat has one a backstage pass for tonights concert.");
-       }
-        evt.getComponent().setBackground(Color.red);
+            JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
+            boolean hasBackstagePass = false;
+            Random r = new Random();
+            int chance = r.nextInt(11);
+            if (chance == 2)
+            {
+                hasBackstagePass = true;
+                JOptionPane.showMessageDialog(null,"The purchaser of this seat has one a backstage pass for tonights concert.");
+            }
+            evt.getComponent().setBackground(Color.red);
         }
     }//GEN-LAST:event_bookGoldSeat
 
@@ -1290,99 +1287,99 @@ public class ConcertUI extends javax.swing.JFrame {
     } 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton a10Button;
-    private javax.swing.JButton a1Button;
-    private javax.swing.JButton a2Button;
-    private javax.swing.JButton a3Button;
-    private javax.swing.JButton a4Button;
-    private javax.swing.JButton a5Button;
-    private javax.swing.JButton a6Button;
-    private javax.swing.JButton a7Button;
-    private javax.swing.JButton a8Button;
-    private javax.swing.JButton a9Button;
-    private javax.swing.JButton b10Button;
-    private javax.swing.JButton b1Button;
-    private javax.swing.JButton b2Button;
-    private javax.swing.JButton b3Button;
-    private javax.swing.JButton b4Button;
-    private javax.swing.JButton b5Button;
-    private javax.swing.JButton b6Button;
-    private javax.swing.JButton b7Button;
-    private javax.swing.JButton b8Button;
-    private javax.swing.JButton b9Button;
+    private javax.swing.JButton a01;
+    private javax.swing.JButton a02;
+    private javax.swing.JButton a03;
+    private javax.swing.JButton a04;
+    private javax.swing.JButton a05;
+    private javax.swing.JButton a06;
+    private javax.swing.JButton a07;
+    private javax.swing.JButton a08;
+    private javax.swing.JButton a09;
+    private javax.swing.JButton a10;
+    private javax.swing.JButton b01;
+    private javax.swing.JButton b02;
+    private javax.swing.JButton b03;
+    private javax.swing.JButton b04;
+    private javax.swing.JButton b05;
+    private javax.swing.JButton b06;
+    private javax.swing.JButton b07;
+    private javax.swing.JButton b08;
+    private javax.swing.JButton b09;
+    private javax.swing.JButton b10;
     private javax.swing.JButton bookingsByCustomerButton;
-    private javax.swing.JButton c10Button;
-    private javax.swing.JButton c1Button;
-    private javax.swing.JButton c2Button;
-    private javax.swing.JButton c3Button;
-    private javax.swing.JButton c4Button;
-    private javax.swing.JButton c5Button;
-    private javax.swing.JButton c6Button;
-    private javax.swing.JButton c7Button;
-    private javax.swing.JButton c8Button;
-    private javax.swing.JButton c9Button;
+    private javax.swing.JButton c01;
+    private javax.swing.JButton c02;
+    private javax.swing.JButton c03;
+    private javax.swing.JButton c04;
+    private javax.swing.JButton c05;
+    private javax.swing.JButton c06;
+    private javax.swing.JButton c07;
+    private javax.swing.JButton c08;
+    private javax.swing.JButton c09;
+    private javax.swing.JButton c10;
     private javax.swing.JButton checkIfBookedButton;
-    private javax.swing.JButton d10Button;
-    private javax.swing.JButton d1Button;
-    private javax.swing.JButton d2Button;
-    private javax.swing.JButton d3Button;
-    private javax.swing.JButton d4Button;
-    private javax.swing.JButton d5Button;
-    private javax.swing.JButton d6Button;
-    private javax.swing.JButton d7Button;
-    private javax.swing.JButton d8Button;
-    private javax.swing.JButton d9Button;
-    private javax.swing.JButton e10Button;
-    private javax.swing.JButton e1Button;
-    private javax.swing.JButton e2Button;
-    private javax.swing.JButton e3Button;
-    private javax.swing.JButton e4Button;
-    private javax.swing.JButton e5Button;
-    private javax.swing.JButton e6Button;
-    private javax.swing.JButton e7Button;
-    private javax.swing.JButton e8Button;
-    private javax.swing.JButton e9Button;
+    private javax.swing.JButton d01;
+    private javax.swing.JButton d02;
+    private javax.swing.JButton d03;
+    private javax.swing.JButton d04;
+    private javax.swing.JButton d05;
+    private javax.swing.JButton d06;
+    private javax.swing.JButton d07;
+    private javax.swing.JButton d08;
+    private javax.swing.JButton d09;
+    private javax.swing.JButton d10;
+    private javax.swing.JButton e01;
+    private javax.swing.JButton e02;
+    private javax.swing.JButton e03;
+    private javax.swing.JButton e04;
+    private javax.swing.JButton e05;
+    private javax.swing.JButton e06;
+    private javax.swing.JButton e07;
+    private javax.swing.JButton e08;
+    private javax.swing.JButton e09;
+    private javax.swing.JButton e10;
     private javax.swing.JButton exitButton;
-    private javax.swing.JButton f10Button;
-    private javax.swing.JButton f1Button;
-    private javax.swing.JButton f2Button;
-    private javax.swing.JButton f3Button;
-    private javax.swing.JButton f4Button;
-    private javax.swing.JButton f5Button;
-    private javax.swing.JButton f6Button;
-    private javax.swing.JButton f7Button;
-    private javax.swing.JButton f8Button;
-    private javax.swing.JButton f9Button;
-    private javax.swing.JButton g10Button;
-    private javax.swing.JButton g1Button;
-    private javax.swing.JButton g2Button;
-    private javax.swing.JButton g3Button;
-    private javax.swing.JButton g4Button;
-    private javax.swing.JButton g5Button;
-    private javax.swing.JButton g6Button;
-    private javax.swing.JButton g7Button;
-    private javax.swing.JButton g8Button;
-    private javax.swing.JButton g9Button;
-    private javax.swing.JButton h10Button;
-    private javax.swing.JButton h1Button;
-    private javax.swing.JButton h2Button;
-    private javax.swing.JButton h3Button;
-    private javax.swing.JButton h4Button;
-    private javax.swing.JButton h5Button;
-    private javax.swing.JButton h6Button;
-    private javax.swing.JButton h7Button;
-    private javax.swing.JButton h8Button;
-    private javax.swing.JButton h9Button;
-    private javax.swing.JButton i10Button;
-    private javax.swing.JButton i1Button;
-    private javax.swing.JButton i2Button;
-    private javax.swing.JButton i3Button;
-    private javax.swing.JButton i4Button;
-    private javax.swing.JButton i5Button;
-    private javax.swing.JButton i6Button;
-    private javax.swing.JButton i7Button;
-    private javax.swing.JButton i8Button;
-    private javax.swing.JButton i9Button;
+    private javax.swing.JButton f01;
+    private javax.swing.JButton f02;
+    private javax.swing.JButton f03;
+    private javax.swing.JButton f04;
+    private javax.swing.JButton f05;
+    private javax.swing.JButton f06;
+    private javax.swing.JButton f07;
+    private javax.swing.JButton f08;
+    private javax.swing.JButton f09;
+    private javax.swing.JButton f10;
+    private javax.swing.JButton g01;
+    private javax.swing.JButton g02;
+    private javax.swing.JButton g03;
+    private javax.swing.JButton g04;
+    private javax.swing.JButton g05;
+    private javax.swing.JButton g06;
+    private javax.swing.JButton g07;
+    private javax.swing.JButton g08;
+    private javax.swing.JButton g09;
+    private javax.swing.JButton g10;
+    private javax.swing.JButton h01;
+    private javax.swing.JButton h02;
+    private javax.swing.JButton h03;
+    private javax.swing.JButton h04;
+    private javax.swing.JButton h05;
+    private javax.swing.JButton h06;
+    private javax.swing.JButton h07;
+    private javax.swing.JButton h08;
+    private javax.swing.JButton h09;
+    private javax.swing.JButton h10;
+    private javax.swing.JButton i01;
+    private javax.swing.JButton i02;
+    private javax.swing.JButton i03;
+    private javax.swing.JButton i04;
+    private javax.swing.JButton i05;
+    private javax.swing.JButton i06;
+    private javax.swing.JButton i07;
+    private javax.swing.JButton i08;
+    private javax.swing.JButton i09;
+    private javax.swing.JButton i10;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;

@@ -89,112 +89,112 @@
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="i1Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="h1Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="g1Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="i01" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="h01" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="g01" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="g2Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="g02" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="g3Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="g03" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="g4Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="g04" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="g5Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="g05" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="h2Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="h02" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="h3Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="h03" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="h4Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="h04" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="h5Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="h05" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="i2Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="i02" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="i3Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="i03" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="i4Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="i04" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="i5Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="i05" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="f1Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="e1Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="d1Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="f01" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="e01" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="d01" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="d2Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="d02" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="d3Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="d03" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="d4Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="d04" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="d5Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="d05" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="e2Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="e02" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="e3Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="e03" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="e4Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="e04" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="e5Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="e05" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="f2Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="f02" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="f3Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="f03" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="f4Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="f04" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="f5Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="f05" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="c1Button" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="b1Button" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="a1Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="c01" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="b01" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="a01" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="a2Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="a02" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="a3Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="a03" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="a4Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="a04" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="a5Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="a05" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="b2Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="b02" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="b3Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="b03" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="b4Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="b04" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="b5Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="b05" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="c2Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="c02" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="c3Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="c03" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="c4Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="c04" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="c5Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="c05" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -204,112 +204,112 @@
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="f6Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="e6Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="d6Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="f06" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="e06" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="d06" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="d7Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="d07" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="d8Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="d08" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="d9Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="d09" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="d10Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="d10" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="e7Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="e07" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="e8Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="e08" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="e9Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="e09" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="e10Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="e10" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="f7Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="f07" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="f8Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="f08" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="f9Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="f09" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="f10Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="f10" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="c6Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="b6Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="a6Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="c06" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="b06" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="a06" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="a7Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="a07" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="a8Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="a08" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="a9Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="a09" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="a10Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="a10" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="b7Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="b07" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="b8Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="b08" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="b9Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="b09" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="b10Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="b10" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="c7Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="c07" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="c8Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="c08" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="c9Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="c09" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="c10Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="c10" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="i6Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="h6Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="g6Button" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="i06" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="h06" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="g06" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="g7Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="g07" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="g8Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="g08" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="g9Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="g09" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="g10Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="g10" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="h7Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="h07" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="h8Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="h08" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="h9Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="h09" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="h10Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="h10" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="i7Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="i07" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="i8Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="i08" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="i9Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="i09" min="-2" pref="23" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="i10Button" min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="i10" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -356,77 +356,77 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="a1Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="a2Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="a3Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="a4Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="a5Button" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="a01" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="a02" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="a03" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="a04" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="a05" min="-2" pref="19" max="-2" attributes="0"/>
                           <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="b1Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="b2Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="b3Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="b4Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="b5Button" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="b01" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="b02" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="b03" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="b04" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="b05" min="-2" pref="19" max="-2" attributes="0"/>
                           <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="c1Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="c2Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="c3Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="c4Button" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="c5Button" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="c01" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="c02" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="c03" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="c04" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="c05" min="-2" pref="19" max="-2" attributes="0"/>
                           <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="d6Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="d7Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="d8Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="d9Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="d10Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="d06" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="d07" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="d08" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="d09" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="d10" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="e6Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="e7Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="e8Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="e9Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="e10Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="e06" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="e07" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="e08" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="e09" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="e10" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="f6Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="f7Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="f8Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="f9Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="f10Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="f06" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="f07" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="f08" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="f09" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="f10" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="d1Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="d2Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="d3Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="d4Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="d5Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="d01" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="d02" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="d03" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="d04" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="d05" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="e1Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="e2Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="e3Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="e4Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="e5Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="e01" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="e02" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="e03" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="e04" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="e05" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                                   </Group>
                                   <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                               </Group>
@@ -434,11 +434,11 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="f1Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="f2Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="f3Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="f4Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="f5Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="f01" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="f02" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="f03" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="f04" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="f05" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
@@ -452,57 +452,57 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="g6Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="g7Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="g8Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="g9Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="g10Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="g06" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="g07" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="g08" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="g09" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="g10" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="h6Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="h7Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="h8Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="h9Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="h10Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="h06" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="h07" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="h08" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="h09" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="h10" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="i6Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="i7Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="i8Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="i9Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="i10Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="i06" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="i07" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="i08" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="i09" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="i10" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="g1Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="g2Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="g3Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="g4Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                      <Component id="g5Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="g01" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="g02" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="g03" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="g04" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="g05" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="h1Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="h2Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="h3Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="h4Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="h5Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="h01" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="h02" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="h03" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="h04" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="h05" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="i1Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="i2Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="i3Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="i4Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Component id="i5Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="i01" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="i02" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="i03" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="i04" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="i05" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="1" attributes="0">
@@ -517,27 +517,27 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="a6Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="a7Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="a8Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="a9Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="a10Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="a06" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="a07" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="a08" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="a09" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="a10" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="b6Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="b7Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="b8Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="b9Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="b10Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="b06" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="b07" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="b08" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="b09" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="b10" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="c6Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="c7Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="c8Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="c9Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="c10Button" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="c06" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="c07" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="c08" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="c09" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="c10" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -604,7 +604,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="a1Button">
+    <Component class="javax.swing.JButton" name="a01">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -615,23 +615,10 @@
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a1ButtonActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a01ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="b1Button">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="cc" red="ff" type="rgb"/>
-        </Property>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="cc" red="ff" type="rgb"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="a2Button">
+    <Component class="javax.swing.JButton" name="b01">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -644,7 +631,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="b2Button">
+    <Component class="javax.swing.JButton" name="a02">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -657,7 +644,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="c1Button">
+    <Component class="javax.swing.JButton" name="b02">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -670,7 +657,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="c2Button">
+    <Component class="javax.swing.JButton" name="c01">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -683,7 +670,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="a4Button">
+    <Component class="javax.swing.JButton" name="c02">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -696,7 +683,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="a5Button">
+    <Component class="javax.swing.JButton" name="a04">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -709,17 +696,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="b3Button">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="cc" red="ff" type="rgb"/>
-        </Property>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="cc" red="ff" type="rgb"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="b4Button">
+    <Component class="javax.swing.JButton" name="a05">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -732,7 +709,17 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="b5Button">
+    <Component class="javax.swing.JButton" name="b03">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="ff" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b04">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -745,7 +732,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="a3Button">
+    <Component class="javax.swing.JButton" name="b05">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -758,7 +745,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="c4Button">
+    <Component class="javax.swing.JButton" name="a03">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -771,7 +758,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="c5Button">
+    <Component class="javax.swing.JButton" name="c04">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -784,7 +771,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="c3Button">
+    <Component class="javax.swing.JButton" name="c05">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -797,7 +784,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="b6Button">
+    <Component class="javax.swing.JButton" name="c03">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -810,7 +797,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="c9Button">
+    <Component class="javax.swing.JButton" name="b06">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -823,7 +810,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="a7Button">
+    <Component class="javax.swing.JButton" name="c09">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -836,7 +823,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="c10Button">
+    <Component class="javax.swing.JButton" name="a07">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -849,7 +836,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="b7Button">
+    <Component class="javax.swing.JButton" name="c10">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -862,7 +849,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="c8Button">
+    <Component class="javax.swing.JButton" name="b07">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -875,7 +862,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="c6Button">
+    <Component class="javax.swing.JButton" name="c08">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -888,7 +875,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="c7Button">
+    <Component class="javax.swing.JButton" name="c06">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -901,7 +888,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="a9Button">
+    <Component class="javax.swing.JButton" name="c07">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -914,7 +901,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="a10Button">
+    <Component class="javax.swing.JButton" name="a09">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -927,7 +914,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="b8Button">
+    <Component class="javax.swing.JButton" name="a10">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -940,7 +927,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="b9Button">
+    <Component class="javax.swing.JButton" name="b08">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -953,7 +940,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="b10Button">
+    <Component class="javax.swing.JButton" name="b09">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -966,7 +953,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="a6Button">
+    <Component class="javax.swing.JButton" name="b10">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -979,7 +966,7 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="a8Button">
+    <Component class="javax.swing.JButton" name="a06">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="cc" red="ff" type="rgb"/>
@@ -992,7 +979,20 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="e1Button">
+    <Component class="javax.swing.JButton" name="a08">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="ff" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookGoldSeat"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="e01">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1002,7 +1002,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="d2Button">
+    <Component class="javax.swing.JButton" name="d02">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1012,7 +1012,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="e2Button">
+    <Component class="javax.swing.JButton" name="e02">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1022,7 +1022,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="f1Button">
+    <Component class="javax.swing.JButton" name="f01">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1032,7 +1032,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="f2Button">
+    <Component class="javax.swing.JButton" name="f02">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1042,7 +1042,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="d4Button">
+    <Component class="javax.swing.JButton" name="d04">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1052,7 +1052,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="d5Button">
+    <Component class="javax.swing.JButton" name="d05">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1062,7 +1062,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="e3Button">
+    <Component class="javax.swing.JButton" name="e03">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1072,7 +1072,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="e4Button">
+    <Component class="javax.swing.JButton" name="e04">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1082,7 +1082,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="e5Button">
+    <Component class="javax.swing.JButton" name="e05">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1092,7 +1092,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="d1Button">
+    <Component class="javax.swing.JButton" name="d01">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1102,7 +1102,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="d3Button">
+    <Component class="javax.swing.JButton" name="d03">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1112,7 +1112,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="f4Button">
+    <Component class="javax.swing.JButton" name="f04">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1122,7 +1122,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="f5Button">
+    <Component class="javax.swing.JButton" name="f05">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1132,7 +1132,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="f3Button">
+    <Component class="javax.swing.JButton" name="f03">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1142,7 +1142,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="e6Button">
+    <Component class="javax.swing.JButton" name="e06">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1152,7 +1152,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="d7Button">
+    <Component class="javax.swing.JButton" name="d07">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1162,7 +1162,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="e7Button">
+    <Component class="javax.swing.JButton" name="e07">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1172,7 +1172,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="f6Button">
+    <Component class="javax.swing.JButton" name="f06">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1182,7 +1182,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="f7Button">
+    <Component class="javax.swing.JButton" name="f07">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1192,7 +1192,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="d9Button">
+    <Component class="javax.swing.JButton" name="d09">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1202,7 +1202,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="d10Button">
+    <Component class="javax.swing.JButton" name="d10">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1212,7 +1212,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="e8Button">
+    <Component class="javax.swing.JButton" name="e08">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1222,7 +1222,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="e9Button">
+    <Component class="javax.swing.JButton" name="e09">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1232,7 +1232,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="e10Button">
+    <Component class="javax.swing.JButton" name="e10">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1242,7 +1242,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="d6Button">
+    <Component class="javax.swing.JButton" name="d06">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1252,7 +1252,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="d8Button">
+    <Component class="javax.swing.JButton" name="d08">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1262,7 +1262,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="f9Button">
+    <Component class="javax.swing.JButton" name="f09">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1272,7 +1272,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="f10Button">
+    <Component class="javax.swing.JButton" name="f10">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1282,7 +1282,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="f8Button">
+    <Component class="javax.swing.JButton" name="f08">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -1292,27 +1292,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="h1Button">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="33" red="66" type="rgb"/>
-        </Property>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="33" red="66" type="rgb"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="g2Button">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="33" red="66" type="rgb"/>
-        </Property>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="33" red="66" type="rgb"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="h2Button">
+    <Component class="javax.swing.JButton" name="h01">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1322,7 +1302,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="i1Button">
+    <Component class="javax.swing.JButton" name="g02">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1332,7 +1312,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="i2Button">
+    <Component class="javax.swing.JButton" name="h02">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1342,7 +1322,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="g4Button">
+    <Component class="javax.swing.JButton" name="i01">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1352,7 +1332,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="g5Button">
+    <Component class="javax.swing.JButton" name="i02">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1362,7 +1342,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="h3Button">
+    <Component class="javax.swing.JButton" name="g04">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1372,7 +1352,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="h4Button">
+    <Component class="javax.swing.JButton" name="g05">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1382,7 +1362,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="h5Button">
+    <Component class="javax.swing.JButton" name="h03">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1392,7 +1372,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="g1Button">
+    <Component class="javax.swing.JButton" name="h04">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1402,7 +1382,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="g3Button">
+    <Component class="javax.swing.JButton" name="h05">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1412,7 +1392,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="i4Button">
+    <Component class="javax.swing.JButton" name="g01">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1422,7 +1402,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="i5Button">
+    <Component class="javax.swing.JButton" name="g03">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1432,7 +1412,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="i3Button">
+    <Component class="javax.swing.JButton" name="i04">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1442,7 +1422,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="h6Button">
+    <Component class="javax.swing.JButton" name="i05">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1452,7 +1432,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="g7Button">
+    <Component class="javax.swing.JButton" name="i03">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1462,7 +1442,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="h7Button">
+    <Component class="javax.swing.JButton" name="h06">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1472,7 +1452,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="i6Button">
+    <Component class="javax.swing.JButton" name="g07">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1482,7 +1462,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="i7Button">
+    <Component class="javax.swing.JButton" name="h07">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1492,7 +1472,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="g9Button">
+    <Component class="javax.swing.JButton" name="i06">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1502,7 +1482,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="g10Button">
+    <Component class="javax.swing.JButton" name="i07">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1512,7 +1492,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="h8Button">
+    <Component class="javax.swing.JButton" name="g09">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1522,7 +1502,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="h9Button">
+    <Component class="javax.swing.JButton" name="g10">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1532,7 +1512,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="h10Button">
+    <Component class="javax.swing.JButton" name="h08">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1542,7 +1522,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="g6Button">
+    <Component class="javax.swing.JButton" name="h09">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1552,7 +1532,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="g8Button">
+    <Component class="javax.swing.JButton" name="h10">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1562,7 +1542,27 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="i9Button">
+    <Component class="javax.swing.JButton" name="g06">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="33" red="66" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="33" red="66" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="g08">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="33" red="66" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="33" red="66" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="i09">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1572,10 +1572,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i9ButtonActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i09ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="i10Button">
+    <Component class="javax.swing.JButton" name="i10">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
@@ -1585,7 +1585,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="i8Button">
+    <Component class="javax.swing.JButton" name="i08">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="33" red="66" type="rgb"/>
