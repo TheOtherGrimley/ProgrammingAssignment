@@ -16,6 +16,14 @@ public class ConcertUI extends javax.swing.JFrame {
     /**
      * Creates new form ConcertUI
      */
+    private double _bronzePrice =0;
+    private double _silverPrice =0;
+    private double _goldPrice =0;
+    
+    public double getGoldPrice(){
+        return _goldPrice;
+    }
+    
     public ConcertUI() {
         initComponents();
     }
@@ -1016,28 +1024,33 @@ public class ConcertUI extends javax.swing.JFrame {
     }//GEN-LAST:event_setBronzePriceButtonActionPerformed
 
     private void setBronzePriceButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_setBronzePriceButtonMouseClicked
-
         String bronzePrice = JOptionPane.showInputDialog(null, "Set Price For Bronze Seating:");
-JOptionPane.showMessageDialog(null, "The Price Has been set to £" + bronzePrice);
-         // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "The Price Has been set to £" + bronzePrice);
+        // TODO add your handling code here:
     }//GEN-LAST:event_setBronzePriceButtonMouseClicked
 
     private void setPriceSliverButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_setPriceSliverButtonMouseClicked
-String sliverPrice = JOptionPane.showInputDialog(null, "Set Price For Sliver Seating:");
-JOptionPane.showMessageDialog(null, "The Price Has been set to £" + sliverPrice);
-           // TODO add your handling code here:        // TODO add your handling code here:
+        String sliverPrice = JOptionPane.showInputDialog(null, "Set Price For Sliver Seating:");
+        JOptionPane.showMessageDialog(null, "The Price Has been set to £" + sliverPrice);
+       // TODO add your handling code here:
     }//GEN-LAST:event_setPriceSliverButtonMouseClicked
 
     private void setPriceGoldButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_setPriceGoldButtonActionPerformed
-String goldPrice = JOptionPane.showInputDialog(null, "Set Price For Gold Seating:");
-JOptionPane.showMessageDialog(null, "The Price Has been set to £" + goldPrice);
-           // TODO add your handling code here:        // TODO add your handling code here:
+        String goldPrice = JOptionPane.showInputDialog(null, "Set Price For Gold Seating:");
+        try{
+            _goldPrice = Double.valueOf(goldPrice);
+            JOptionPane.showMessageDialog(null, "The Price Has been set to £" + goldPrice);
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(null, "Error, value not accepted", "InfoBox: " + "Error", JOptionPane.INFORMATION_MESSAGE);
+        }
+       // TODO add your handling code here:        // TODO add your handling code here:
     }//GEN-LAST:event_setPriceGoldButtonActionPerformed
 
     private void checkIfBookedButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_checkIfBookedButtonMouseClicked
-      String checkIfBooked = JOptionPane.showInputDialog(null, "Enter the Seat You Would Like To Check");
-//ADD  AN IF SATEMENT USING CHECKIFBOOKED TO RETURN A RESULT
-       // TODO add your handling code here:
+        String checkIfBooked = JOptionPane.showInputDialog(null, "Enter the Seat You Would Like To Check");
+        //ADD  AN IF SATEMENT USING CHECKIFBOOKED TO RETURN A RESULT
+        // TODO add your handling code here:
     }//GEN-LAST:event_checkIfBookedButtonMouseClicked
 
     private void bookingsByCustomerButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookingsByCustomerButtonMouseClicked
@@ -1087,7 +1100,7 @@ JOptionPane.showMessageDialog(null, "The Price Has been set to £" + goldPrice);
                 new ConcertUI().setVisible(true);
             }
         });
-    }
+    } 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton a10Button;
