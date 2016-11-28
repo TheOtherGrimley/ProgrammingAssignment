@@ -23,6 +23,12 @@ public class ConcertUI extends javax.swing.JFrame {
     public double getGoldPrice(){
         return _goldPrice;
     }
+    public double getSilverPrice(){
+        return _silverPrice;
+    }
+    public double getBronzePrice(){
+        return _bronzePrice;
+    }
     
     public ConcertUI() {
         initComponents();
@@ -1025,14 +1031,24 @@ public class ConcertUI extends javax.swing.JFrame {
 
     private void setBronzePriceButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_setBronzePriceButtonMouseClicked
         String bronzePrice = JOptionPane.showInputDialog(null, "Set Price For Bronze Seating:");
-        JOptionPane.showMessageDialog(null, "The Price Has been set to £" + bronzePrice);
-        // TODO add your handling code here:
+        try{
+            _bronzePrice = Double.valueOf(bronzePrice);
+            JOptionPane.showMessageDialog(null, "The Price Has been set to £" + bronzePrice);
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(null, "Error, value not accepted", "InfoBox: " + "Error", JOptionPane.INFORMATION_MESSAGE);
+        }
     }//GEN-LAST:event_setBronzePriceButtonMouseClicked
 
     private void setPriceSliverButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_setPriceSliverButtonMouseClicked
-        String sliverPrice = JOptionPane.showInputDialog(null, "Set Price For Sliver Seating:");
-        JOptionPane.showMessageDialog(null, "The Price Has been set to £" + sliverPrice);
-       // TODO add your handling code here:
+        String silverPrice = JOptionPane.showInputDialog(null, "Set Price For Sliver Seating:");
+        try{
+            _silverPrice = Double.valueOf(silverPrice);
+            JOptionPane.showMessageDialog(null, "The Price Has been set to £" + silverPrice);
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(null, "Error, value not accepted", "InfoBox: " + "Error", JOptionPane.INFORMATION_MESSAGE);
+        }
     }//GEN-LAST:event_setPriceSliverButtonMouseClicked
 
     private void setPriceGoldButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_setPriceGoldButtonActionPerformed
