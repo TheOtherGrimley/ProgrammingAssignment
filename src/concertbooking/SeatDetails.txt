@@ -1,0 +1,90 @@
+a01, gold, Jerry, 1
+a02, gold, Jerry's wife, 1
+a03, gold, , 0
+a04, gold, , 0
+a05, gold, , 0
+a06, gold, , 0
+a07, gold, , 0
+a08, gold, , 0
+a09, gold, , 0
+a10, gold, , 0
+b01, gold, , 0
+b02, gold, , 0
+b03, gold, , 0
+b04, gold, , 0
+b05, gold, , 0
+b06, gold, , 0
+b07, gold, , 0
+b08, gold, , 0
+b09, gold, , 0
+b10, gold, , 0
+c01, gold, , 0
+c02, gold, , 0
+c03, gold, , 0
+c04, gold, , 0
+c05, gold, , 0
+c06, gold, , 0
+c07, gold, , 0
+c08, gold, , 0
+c09, gold, , 0
+c10, gold, , 0
+d01, silver, , 0
+d02, silver, , 0
+d03, silver, , 0
+d04, silver, , 0
+d05, silver, , 0
+d06, silver, , 0
+d07, silver, , 0
+d08, silver, , 0
+d09, silver, , 0
+d10, silver, , 0
+e01, silver, , 0
+e02, silver, , 0
+e03, silver, , 0
+e04, silver, , 0
+e05, silver, , 0
+e06, silver, , 0
+e07, silver, , 0
+e08, silver, , 0
+e09, silver, , 0
+e10, silver, , 0
+f01, silver, , 0
+f02, silver, , 0
+f03, silver, , 0
+f04, silver, , 0
+a05, silver, , 0
+f06, silver, , 0
+f07, silver, , 0
+f08, silver, , 0
+f09, silver, , 0
+f10, silver, , 0
+g01, bronze,
+g02, bronze,
+g03, bronze,
+g04, bronze,
+g05, bronze,
+g06, bronze,
+g07, bronze,
+g08, bronze,
+g09, bronze,
+g10, bronze,
+h01, bronze,
+h02, bronze,
+h03, bronze,
+h04, bronze,
+h05, bronze,
+h06, bronze,
+h07, bronze,
+h08, bronze,
+h09, bronze,
+h10, bronze,
+i01, bronze,
+i02, bronze,
+i03, bronze,
+i04, bronze,
+i05, bronze,
+i06, bronze,
+i07, bronze,
+i08, bronze,
+i09, bronze,
+i10, bronze,
