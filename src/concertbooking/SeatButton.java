@@ -11,4 +11,8 @@ package concertbooking;
  */
 public class SeatButton {
     
+    private boolean isBooked = false;
+    
+    
+    
 }
