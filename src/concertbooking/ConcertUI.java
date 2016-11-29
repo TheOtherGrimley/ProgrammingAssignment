@@ -504,6 +504,11 @@ public class ConcertUI extends javax.swing.JFrame {
 
         d01.setBackground(new java.awt.Color(204, 204, 204));
         d01.setForeground(new java.awt.Color(204, 204, 204));
+        d01.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         d03.setBackground(new java.awt.Color(204, 204, 204));
         d03.setForeground(new java.awt.Color(204, 204, 204));
@@ -1267,11 +1272,21 @@ public class ConcertUI extends javax.swing.JFrame {
             {
                 hasBackstagePass = true;
                 JOptionPane.showMessageDialog(null,"The purchaser of this seat has one a backstage pass for tonights concert.");
+                for (int i =0;i<=90;i++)
+                {
+                    if (_s.seatArray[i].getCustomerName().equals(purchaserName))
+                    {
+                        _s.seatArray[i].setExtra("1");
+                    }
+                } 
             }
             evt.getComponent().setBackground(Color.red);
         }
+        
     }//GEN-LAST:event_bookGoldSeat
 
+    
+    
     private void exitButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exitButtonMouseClicked
         
     }//GEN-LAST:event_exitButtonMouseClicked
@@ -1301,6 +1316,37 @@ public class ConcertUI extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_bookingsByCustomer
+
+    private void bookSilverSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookSilverSeat
+        // TODO add your handling code here:
+         String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
+        if(purchaserName == null) { }
+        else if(purchaserName.equals(""))
+        {
+            JOptionPane.showMessageDialog(null,"Please enter a valid purchaser name.");
+            bookSilverSeat(evt);
+        }
+        else
+        {
+            JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
+            for(int i=0;i<=0;i++)
+            {
+                if(_s.seatArray[i].getSeatNumber() == evt.getComponent().getName())
+                {
+                    _s.seatArray[i].setCustomerName(purchaserName);
+                }
+            }
+            JOptionPane.showMessageDialog(null,"This customer is entitled to a free program for the concert");
+            evt.getComponent().setBackground(Color.red);
+        }
+        for (int i =0;i<=90;i++)
+                {
+                    if (_s.seatArray[i].getCustomerName().equals(purchaserName))
+                    {
+                        _s.seatArray[i].setExtra("1");
+                    }
+                } 
+    }//GEN-LAST:event_bookSilverSeat
 
     /**
      * @param args the command line arguments

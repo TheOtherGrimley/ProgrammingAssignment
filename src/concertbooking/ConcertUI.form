@@ -1102,6 +1102,9 @@
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bookSilverSeat"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="d03">
       <Properties>
