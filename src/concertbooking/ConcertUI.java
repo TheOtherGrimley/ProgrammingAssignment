@@ -492,6 +492,11 @@ public class ConcertUI extends javax.swing.JFrame {
 
         d05.setBackground(new java.awt.Color(204, 204, 204));
         d05.setForeground(new java.awt.Color(204, 204, 204));
+        d05.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         e03.setBackground(new java.awt.Color(204, 204, 204));
         e03.setForeground(new java.awt.Color(204, 204, 204));
@@ -599,6 +604,11 @@ public class ConcertUI extends javax.swing.JFrame {
 
         g01.setBackground(new java.awt.Color(102, 51, 0));
         g01.setForeground(new java.awt.Color(102, 51, 0));
+        g01.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         g03.setBackground(new java.awt.Color(102, 51, 0));
         g03.setForeground(new java.awt.Color(102, 51, 0));
@@ -1347,6 +1357,23 @@ public class ConcertUI extends javax.swing.JFrame {
                     }
                 } 
     }//GEN-LAST:event_bookSilverSeat
+
+    private void bookBronzeSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookBronzeSeat
+        // TODO add your handling code here:
+        String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
+        if(purchaserName == null) { }
+        else if(purchaserName.equals(""))
+        {
+            JOptionPane.showMessageDialog(null,"Please enter a valid purchaser name.");
+            bookBronzeSeat(evt);
+        }
+        else
+        {
+            JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
+            evt.getComponent().setBackground(Color.red);
+        }
+        
+    }//GEN-LAST:event_bookBronzeSeat
 
     /**
      * @param args the command line arguments
