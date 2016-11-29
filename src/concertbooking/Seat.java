@@ -45,4 +45,14 @@ public class Seat {
     public void setCustomerName(String value){
         _customerName = value;
     }
+    
+    public String printExtra(){
+        if(_extra == true){
+            return "1";
+        }
+        if(_extra == false){
+            return "0";
+        }
+        else{return null;}
+    }
 }

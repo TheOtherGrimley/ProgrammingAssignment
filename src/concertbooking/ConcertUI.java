@@ -23,6 +23,7 @@ public class ConcertUI extends javax.swing.JFrame {
     private double _bronzePrice =0;
     private double _silverPrice =0;
     private double _goldPrice =0;
+    private Scan _s;
    
     
     public double getGoldPrice(){
@@ -37,8 +38,9 @@ public class ConcertUI extends javax.swing.JFrame {
     
     
     
-    public ConcertUI() {
+    public ConcertUI(Scan s) {
         initComponents();
+        _s = s;
     }
 
     /**
@@ -219,6 +221,11 @@ public class ConcertUI extends javax.swing.JFrame {
         });
 
         exitButton.setText("Exit");
+        exitButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                exitButtonMouseClicked(evt);
+            }
+        });
         exitButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 exitButtonActionPerformed(evt);
@@ -1223,7 +1230,8 @@ public class ConcertUI extends javax.swing.JFrame {
     }//GEN-LAST:event_bookingsByCustomerButtonMouseClicked
 
     private void exitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitButtonActionPerformed
-       System.exit(0); // TODO add your handling code here:
+        _s.onClose();
+        System.exit(0); // TODO add your handling code here:
     }//GEN-LAST:event_exitButtonActionPerformed
 
     private void bookGoldSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookGoldSeat
@@ -1250,6 +1258,10 @@ public class ConcertUI extends javax.swing.JFrame {
             evt.getComponent().setBackground(Color.red);
         }
     }//GEN-LAST:event_bookGoldSeat
+
+    private void exitButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exitButtonMouseClicked
+        
+    }//GEN-LAST:event_exitButtonMouseClicked
 
     /**
      * @param args the command line arguments
@@ -1281,7 +1293,7 @@ public class ConcertUI extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ConcertUI().setVisible(true);
+                //new ConcertUI().setVisible(true);
             }
         });
     } 

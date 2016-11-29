@@ -14,11 +14,13 @@ public class ConcertBooking {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
-        ConcertUI ui = new ConcertUI();
+         Scan s = new Scan();
+        ConcertUI ui = new ConcertUI(s);
         ui.setVisible(true);
         
-        Scan s = new Scan();
+       
         
         // \/ \/ ignore this shit \/ \/
         /*for(int i = 0; i<90; i++){
@@ -27,5 +29,7 @@ public class ConcertBooking {
             }
         }*/
     }
+    
+    
     
 }

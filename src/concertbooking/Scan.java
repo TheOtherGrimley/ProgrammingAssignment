@@ -39,6 +39,14 @@ public class Scan {
         fillArray();
     }
     
+    public void onClose(){
+        for(int i = 0; i < 90; i++){
+            writer.append(seatArray[i].getSeatNumber()+","+seatArray[i].getSeatTier()+","+seatArray[i].getCustomerName()+","+seatArray[i].printExtra()+", \n");
+        }
+        writer.flush();
+        writer.close();
+    }
+    
     private void fillArray(){
         for(int i = 0; i < 90; i++){
             //while(seatDetails.hasNext()){
