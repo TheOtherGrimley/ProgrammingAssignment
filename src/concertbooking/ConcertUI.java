@@ -1218,9 +1218,28 @@ public class ConcertUI extends javax.swing.JFrame {
     }//GEN-LAST:event_setPriceGoldButtonActionPerformed
 
     private void checkIfBookedButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_checkIfBookedButtonMouseClicked
-        String checkIfBooked = JOptionPane.showInputDialog(null, "Enter the Seat You Would Like To Check");
-        //ADD  AN IF SATEMENT USING CHECKIFBOOKED TO RETURN A RESULT
-        // TODO add your handling code here:
+        String checkSeat = JOptionPane.showInputDialog(null, "Enter the seat you would like to check:");
+        if (checkSeat.equals("")) {
+            JOptionPane.showMessageDialog(null, "Please enter a valid seat.");
+
+        } else {
+            for (int i = 0; i <= 90; i++) {
+                if (i == 90) {
+                    JOptionPane.showMessageDialog(null, "404: Seat not found.");
+                } 
+                else{
+                    if (_s.seatArray[i].getSeatNumber().equals(checkSeat)) {
+                        if (_s.seatArray[i].getCustomerName().equals("")) {
+                            JOptionPane.showMessageDialog(null, "This seat has not been booked.");
+                            break;
+                        } else {
+                            JOptionPane.showMessageDialog(null, "This Seat is Booked By " + _s.seatArray[i].getCustomerName());
+                            break;
+                        }
+                   }
+                }
+            }
+        }
     }//GEN-LAST:event_checkIfBookedButtonMouseClicked
 
     private void exitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitButtonActionPerformed
