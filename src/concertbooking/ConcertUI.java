@@ -216,7 +216,7 @@ public class ConcertUI extends javax.swing.JFrame {
         bookingsByCustomerButton.setText("Bookings By Customer");
         bookingsByCustomerButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                bookingsByCustomerButtonMouseClicked(evt);
+                bookingsByCustomer(evt);
             }
         });
 
@@ -1223,12 +1223,6 @@ public class ConcertUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_checkIfBookedButtonMouseClicked
 
-    private void bookingsByCustomerButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookingsByCustomerButtonMouseClicked
-      String checkIfCustomerHasBookings = JOptionPane.showInputDialog(null, "Enter a Customer Name");
-//ADD A FOR SATEMENT USING  checkIfCustomerHasBookings TO RETURN A RESULT
-      // TODO add your handling code here:
-    }//GEN-LAST:event_bookingsByCustomerButtonMouseClicked
-
     private void exitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitButtonActionPerformed
         _s.onClose();
         System.exit(0); // TODO add your handling code here:
@@ -1262,6 +1256,32 @@ public class ConcertUI extends javax.swing.JFrame {
     private void exitButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exitButtonMouseClicked
         
     }//GEN-LAST:event_exitButtonMouseClicked
+
+    private void bookingsByCustomer(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookingsByCustomer
+        // TODO add your handling code here:
+        String searchedName =JOptionPane.showInputDialog("Please enter customer name you are searching for:");
+        for(int i=0;i<=90;i++)
+        {
+            if(i==90)
+            {
+                JOptionPane.showMessageDialog(null,"The selected customer has not booked any seats.");
+            }
+            else
+            {
+                int numberOfSeats = 0;
+            if(_s.seatArray[i].getCustomerName().equals(searchedName))
+            {
+                numberOfSeats =+1;
+                
+                JOptionPane.showMessageDialog(null,"The selected customer has booked the following seat : "+ _s.seatArray[i].getSeatNumber());
+                JOptionPane.showMessageDialog(null,"The selected customer has booked "+ Integer.toString(numberOfSeats) + " seats");
+                break;
+            }
+            }
+        }
+        
+        
+    }//GEN-LAST:event_bookingsByCustomer
 
     /**
      * @param args the command line arguments
