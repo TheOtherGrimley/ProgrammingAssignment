@@ -58,33 +58,33 @@ f07, silver, , 0
 f08, silver, , 0
 f09, silver, , 0
 f10, silver, , 0
-g01, bronze,
-g02, bronze,
-g03, bronze,
-g04, bronze,
-g05, bronze,
-g06, bronze,
-g07, bronze,
-g08, bronze,
-g09, bronze,
-g10, bronze,
-h01, bronze,
-h02, bronze,
-h03, bronze,
-h04, bronze,
-h05, bronze,
-h06, bronze,
-h07, bronze,
-h08, bronze,
-h09, bronze,
-h10, bronze,
-i01, bronze,
-i02, bronze,
-i03, bronze,
-i04, bronze,
-i05, bronze,
-i06, bronze,
-i07, bronze,
-i08, bronze,
-i09, bronze,
-i10, bronze,
+g01, bronze, , 0
+g02, bronze, , 0
+g03, bronze, Terry K, 0
+g04, bronze, , 0
+g05, bronze, , 0
+g06, bronze, , 0
+g07, bronze, , 0
+g08, bronze, , 0
+g09, bronze, , 0
+g10, bronze, , 0
+h01, bronze, , 0
+h02, bronze, , 0
+h03, bronze, , 0
+h04, bronze, , 0
+h05, bronze, , 0
+h06, bronze, , 0
+h07, bronze, , 0
+h08, bronze, , 0
+h09, bronze, , 0
+h10, bronze, , 0
+i01, bronze, , 0
+i02, bronze, , 0
+i03, bronze, , 0
+i04, bronze, , 0
+i05, bronze, , 0
+i06, bronze, , 0
+i07, bronze, , 0
+i08, bronze, , 0
+i09, bronze, , 0
+i10, bronze, , 0
