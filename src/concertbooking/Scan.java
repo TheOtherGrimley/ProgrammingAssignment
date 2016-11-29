@@ -19,7 +19,7 @@ public class Scan {
     private Scanner seatDetails = null;
     private Scanner concertDetails = null;
     PrintWriter writer = null;    
-    public static Seat[] seatArray = new Seat[90];
+    public Seat[] seatArray = new Seat[90];
     
 
     
@@ -27,6 +27,7 @@ public class Scan {
         try{
         seatDetails = new Scanner(new File(System.getProperty("user.dir") + "/src/concertbooking/SeatDetails.txt"));
         seatDetails.useDelimiter(",");
+        
         
         concertDetails = new Scanner(new File(System.getProperty("user.dir") + "/src/concertbooking/ConcertDetails.txt"));
         concertDetails.useDelimiter(",");
@@ -39,14 +40,15 @@ public class Scan {
     }
     
     private void fillArray(){
-        for(int i = 1; i < 90; i++){
-            while(seatDetails.hasNext()){
+        for(int i = 0; i < 90; i++){
+            //while(seatDetails.hasNext()){
                 seatArray[i] = new Seat();
                 seatArray[i].setSeatNumber(seatDetails.next());
                 seatArray[i].setSeatTier(seatDetails.next());
                 seatArray[i].setCustomerName(seatDetails.next());
                 seatArray[i].setExtra(seatDetails.next());
-            }
+                seatDetails.nextLine();
+            //}
         }
     }
 }

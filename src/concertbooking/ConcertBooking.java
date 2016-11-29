@@ -18,12 +18,12 @@ public class ConcertBooking {
         ConcertUI ui = new ConcertUI();
         ui.setVisible(true);
         
-        // \/ \/ ignore this shit \/ \/
-        /*Scan s = new Scan();
+        Scan s = new Scan();
         
-        for(int i = 0; i<90; i++){
-            if (Scan.seatArray[i].getSeatNumber() == "g03"){
-                System.out.println(Scan.seatArray[i].getCustomerName());
+        // \/ \/ ignore this shit \/ \/
+        /*for(int i = 0; i<90; i++){
+            if (s.seatArray[i].getSeatNumber().equals("g03")){
+                System.out.println(s.seatArray[i].getCustomerName());
             }
         }*/
     }
