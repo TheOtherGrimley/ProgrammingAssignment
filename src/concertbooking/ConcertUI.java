@@ -300,9 +300,20 @@ public class ConcertUI extends javax.swing.JFrame {
                 .addContainerGap(48, Short.MAX_VALUE))
         );
 
+        jPanel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
+
         e03.setBackground(new java.awt.Color(204, 204, 204));
         e03.setForeground(new java.awt.Color(204, 204, 204));
         e03.setText("e03");
+        e03.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         c10.setBackground(new java.awt.Color(255, 204, 0));
         c10.setForeground(new java.awt.Color(255, 204, 0));
@@ -329,10 +340,20 @@ public class ConcertUI extends javax.swing.JFrame {
         e08.setBackground(new java.awt.Color(204, 204, 204));
         e08.setForeground(new java.awt.Color(204, 204, 204));
         e08.setText("e08");
+        e08.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         h04.setBackground(new java.awt.Color(102, 51, 0));
         h04.setForeground(new java.awt.Color(102, 51, 0));
         h04.setText("h04");
+        h04.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         b06.setBackground(new java.awt.Color(255, 204, 0));
         b06.setForeground(new java.awt.Color(255, 204, 0));
@@ -355,14 +376,29 @@ public class ConcertUI extends javax.swing.JFrame {
         g05.setBackground(new java.awt.Color(102, 51, 0));
         g05.setForeground(new java.awt.Color(102, 51, 0));
         g05.setText("g05");
+        g05.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         h02.setBackground(new java.awt.Color(102, 51, 0));
         h02.setForeground(new java.awt.Color(102, 51, 0));
         h02.setText("h02");
+        h02.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         h05.setBackground(new java.awt.Color(102, 51, 0));
         h05.setForeground(new java.awt.Color(102, 51, 0));
         h05.setText("h05");
+        h05.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         c09.setBackground(new java.awt.Color(255, 204, 0));
         c09.setForeground(new java.awt.Color(255, 204, 0));
@@ -376,28 +412,58 @@ public class ConcertUI extends javax.swing.JFrame {
         d10.setBackground(new java.awt.Color(204, 204, 204));
         d10.setForeground(new java.awt.Color(204, 204, 204));
         d10.setText("d10");
+        d10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         jLabel14.setText("H");
 
         f04.setBackground(new java.awt.Color(204, 204, 204));
         f04.setForeground(new java.awt.Color(204, 204, 204));
         f04.setText("f04");
+        f04.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         i01.setBackground(new java.awt.Color(102, 51, 0));
         i01.setForeground(new java.awt.Color(102, 51, 0));
         i01.setText("i01");
+        i01.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         g10.setBackground(new java.awt.Color(102, 51, 0));
         g10.setForeground(new java.awt.Color(102, 51, 0));
         g10.setText("g10");
+        g10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         h03.setBackground(new java.awt.Color(102, 51, 0));
         h03.setForeground(new java.awt.Color(102, 51, 0));
         h03.setText("h03");
+        h03.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         f08.setBackground(new java.awt.Color(204, 204, 204));
         f08.setForeground(new java.awt.Color(204, 204, 204));
         f08.setText("f08");
+        f08.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         a03.setBackground(new java.awt.Color(255, 204, 0));
         a03.setForeground(new java.awt.Color(255, 204, 0));
@@ -411,6 +477,11 @@ public class ConcertUI extends javax.swing.JFrame {
         f01.setBackground(new java.awt.Color(204, 204, 204));
         f01.setForeground(new java.awt.Color(204, 204, 204));
         f01.setText("f01");
+        f01.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         a04.setBackground(new java.awt.Color(255, 204, 0));
         a04.setForeground(new java.awt.Color(255, 204, 0));
@@ -447,10 +518,20 @@ public class ConcertUI extends javax.swing.JFrame {
         h01.setBackground(new java.awt.Color(102, 51, 0));
         h01.setForeground(new java.awt.Color(102, 51, 0));
         h01.setText("h01");
+        h01.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         e01.setBackground(new java.awt.Color(204, 204, 204));
         e01.setForeground(new java.awt.Color(204, 204, 204));
         e01.setText("e01");
+        e01.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         c03.setBackground(new java.awt.Color(255, 204, 0));
         c03.setForeground(new java.awt.Color(255, 204, 0));
@@ -473,6 +554,11 @@ public class ConcertUI extends javax.swing.JFrame {
         h07.setBackground(new java.awt.Color(102, 51, 0));
         h07.setForeground(new java.awt.Color(102, 51, 0));
         h07.setText("h07");
+        h07.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         d01.setBackground(new java.awt.Color(204, 204, 204));
         d01.setForeground(new java.awt.Color(204, 204, 204));
@@ -504,6 +590,11 @@ public class ConcertUI extends javax.swing.JFrame {
         d08.setBackground(new java.awt.Color(204, 204, 204));
         d08.setForeground(new java.awt.Color(204, 204, 204));
         d08.setText("d08");
+        d08.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         b05.setBackground(new java.awt.Color(255, 204, 0));
         b05.setForeground(new java.awt.Color(255, 204, 0));
@@ -517,6 +608,11 @@ public class ConcertUI extends javax.swing.JFrame {
         e10.setBackground(new java.awt.Color(204, 204, 204));
         e10.setForeground(new java.awt.Color(204, 204, 204));
         e10.setText("e10");
+        e10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         c08.setBackground(new java.awt.Color(255, 204, 0));
         c08.setForeground(new java.awt.Color(255, 204, 0));
@@ -532,6 +628,11 @@ public class ConcertUI extends javax.swing.JFrame {
         i03.setBackground(new java.awt.Color(102, 51, 0));
         i03.setForeground(new java.awt.Color(102, 51, 0));
         i03.setText("i03");
+        i03.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         a05.setBackground(new java.awt.Color(255, 204, 0));
         a05.setForeground(new java.awt.Color(255, 204, 0));
@@ -554,6 +655,11 @@ public class ConcertUI extends javax.swing.JFrame {
         d02.setBackground(new java.awt.Color(204, 204, 204));
         d02.setForeground(new java.awt.Color(204, 204, 204));
         d02.setText("d02");
+        d02.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         b08.setBackground(new java.awt.Color(255, 204, 0));
         b08.setForeground(new java.awt.Color(255, 204, 0));
@@ -578,10 +684,20 @@ public class ConcertUI extends javax.swing.JFrame {
         d06.setBackground(new java.awt.Color(204, 204, 204));
         d06.setForeground(new java.awt.Color(204, 204, 204));
         d06.setText("d06");
+        d06.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         i05.setBackground(new java.awt.Color(102, 51, 0));
         i05.setForeground(new java.awt.Color(102, 51, 0));
         i05.setText("i05");
+        i05.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         b07.setBackground(new java.awt.Color(255, 204, 0));
         b07.setForeground(new java.awt.Color(255, 204, 0));
@@ -606,10 +722,20 @@ public class ConcertUI extends javax.swing.JFrame {
         d09.setBackground(new java.awt.Color(204, 204, 204));
         d09.setForeground(new java.awt.Color(204, 204, 204));
         d09.setText("d09");
+        d09.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         d07.setBackground(new java.awt.Color(204, 204, 204));
         d07.setForeground(new java.awt.Color(204, 204, 204));
         d07.setText("d07");
+        d07.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         b09.setBackground(new java.awt.Color(255, 204, 0));
         b09.setForeground(new java.awt.Color(255, 204, 0));
@@ -623,30 +749,65 @@ public class ConcertUI extends javax.swing.JFrame {
         i07.setBackground(new java.awt.Color(102, 51, 0));
         i07.setForeground(new java.awt.Color(102, 51, 0));
         i07.setText("i07");
+        i07.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         f03.setBackground(new java.awt.Color(204, 204, 204));
         f03.setForeground(new java.awt.Color(204, 204, 204));
         f03.setText("f03");
+        f03.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         d03.setBackground(new java.awt.Color(204, 204, 204));
         d03.setForeground(new java.awt.Color(204, 204, 204));
         d03.setText("d03");
+        d03.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         e05.setBackground(new java.awt.Color(204, 204, 204));
         e05.setForeground(new java.awt.Color(204, 204, 204));
         e05.setText("e05");
+        e05.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         e06.setBackground(new java.awt.Color(204, 204, 204));
         e06.setForeground(new java.awt.Color(204, 204, 204));
         e06.setText("e06");
+        e06.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         f10.setBackground(new java.awt.Color(204, 204, 204));
         f10.setForeground(new java.awt.Color(204, 204, 204));
         f10.setText("f10");
+        f10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         f09.setBackground(new java.awt.Color(204, 204, 204));
         f09.setForeground(new java.awt.Color(204, 204, 204));
         f09.setText("f09");
+        f09.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         a09.setBackground(new java.awt.Color(255, 204, 0));
         a09.setForeground(new java.awt.Color(255, 204, 0));
@@ -660,60 +821,125 @@ public class ConcertUI extends javax.swing.JFrame {
         g04.setBackground(new java.awt.Color(102, 51, 0));
         g04.setForeground(new java.awt.Color(102, 51, 0));
         g04.setText("g04");
+        g04.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         e07.setBackground(new java.awt.Color(204, 204, 204));
         e07.setForeground(new java.awt.Color(204, 204, 204));
         e07.setText("e07");
+        e07.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         f07.setBackground(new java.awt.Color(204, 204, 204));
         f07.setForeground(new java.awt.Color(204, 204, 204));
         f07.setText("f07");
+        f07.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         h08.setBackground(new java.awt.Color(102, 51, 0));
         h08.setForeground(new java.awt.Color(102, 51, 0));
         h08.setText("h08");
+        h08.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         jLabel6.setText("   6        7       8        9       10");
 
         i08.setBackground(new java.awt.Color(102, 51, 0));
         i08.setForeground(new java.awt.Color(102, 51, 0));
         i08.setText("i08");
+        i08.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         h10.setBackground(new java.awt.Color(102, 51, 0));
         h10.setForeground(new java.awt.Color(102, 51, 0));
         h10.setText("h10");
+        h10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         jLabel4.setText("   1        2       3        4        5");
 
         g09.setBackground(new java.awt.Color(102, 51, 0));
         g09.setForeground(new java.awt.Color(102, 51, 0));
         g09.setText("g09");
+        g09.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         jLabel11.setText("E");
 
         g08.setBackground(new java.awt.Color(102, 51, 0));
         g08.setForeground(new java.awt.Color(102, 51, 0));
         g08.setText("g08");
+        g08.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         g02.setBackground(new java.awt.Color(102, 51, 0));
         g02.setForeground(new java.awt.Color(102, 51, 0));
         g02.setText("g02");
+        g02.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         f05.setBackground(new java.awt.Color(204, 204, 204));
         f05.setForeground(new java.awt.Color(204, 204, 204));
         f05.setText("f05");
+        f05.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         e04.setBackground(new java.awt.Color(204, 204, 204));
         e04.setForeground(new java.awt.Color(204, 204, 204));
         e04.setText("e04");
+        e04.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         i04.setBackground(new java.awt.Color(102, 51, 0));
         i04.setForeground(new java.awt.Color(102, 51, 0));
         i04.setText("i04");
+        i04.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         i09.setBackground(new java.awt.Color(102, 51, 0));
         i09.setForeground(new java.awt.Color(102, 51, 0));
         i09.setText("i09");
+        i09.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
         i09.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i09ActionPerformed(evt);
@@ -725,10 +951,20 @@ public class ConcertUI extends javax.swing.JFrame {
         i06.setBackground(new java.awt.Color(102, 51, 0));
         i06.setForeground(new java.awt.Color(102, 51, 0));
         i06.setText("i06");
+        i06.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         i02.setBackground(new java.awt.Color(102, 51, 0));
         i02.setForeground(new java.awt.Color(102, 51, 0));
         i02.setText("i02");
+        i02.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         g01.setBackground(new java.awt.Color(102, 51, 0));
         g01.setForeground(new java.awt.Color(102, 51, 0));
@@ -743,14 +979,29 @@ public class ConcertUI extends javax.swing.JFrame {
         g06.setBackground(new java.awt.Color(102, 51, 0));
         g06.setForeground(new java.awt.Color(102, 51, 0));
         g06.setText("g06");
+        g06.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         g03.setBackground(new java.awt.Color(102, 51, 0));
         g03.setForeground(new java.awt.Color(102, 51, 0));
         g03.setText("g03");
+        g03.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         h06.setBackground(new java.awt.Color(102, 51, 0));
         h06.setForeground(new java.awt.Color(102, 51, 0));
         h06.setText("h06");
+        h06.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         b03.setBackground(new java.awt.Color(255, 204, 0));
         b03.setForeground(new java.awt.Color(255, 204, 0));
@@ -759,14 +1010,29 @@ public class ConcertUI extends javax.swing.JFrame {
         g07.setBackground(new java.awt.Color(102, 51, 0));
         g07.setForeground(new java.awt.Color(102, 51, 0));
         g07.setText("g07");
+        g07.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         d04.setBackground(new java.awt.Color(204, 204, 204));
         d04.setForeground(new java.awt.Color(204, 204, 204));
         d04.setText("d04");
+        d04.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         f06.setBackground(new java.awt.Color(204, 204, 204));
         f06.setForeground(new java.awt.Color(204, 204, 204));
         f06.setText("f06");
+        f06.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         a08.setBackground(new java.awt.Color(255, 204, 0));
         a08.setForeground(new java.awt.Color(255, 204, 0));
@@ -798,6 +1064,11 @@ public class ConcertUI extends javax.swing.JFrame {
         i10.setBackground(new java.awt.Color(102, 51, 0));
         i10.setForeground(new java.awt.Color(102, 51, 0));
         i10.setText("i10");
+        i10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         a07.setBackground(new java.awt.Color(255, 204, 0));
         a07.setForeground(new java.awt.Color(255, 204, 0));
@@ -811,6 +1082,11 @@ public class ConcertUI extends javax.swing.JFrame {
         e09.setBackground(new java.awt.Color(204, 204, 204));
         e09.setForeground(new java.awt.Color(204, 204, 204));
         e09.setText("e09");
+        e09.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         b04.setBackground(new java.awt.Color(255, 204, 0));
         b04.setForeground(new java.awt.Color(255, 204, 0));
@@ -824,6 +1100,11 @@ public class ConcertUI extends javax.swing.JFrame {
         f02.setBackground(new java.awt.Color(204, 204, 204));
         f02.setForeground(new java.awt.Color(204, 204, 204));
         f02.setText("f02");
+        f02.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         d05.setBackground(new java.awt.Color(204, 204, 204));
         d05.setForeground(new java.awt.Color(204, 204, 204));
@@ -837,6 +1118,11 @@ public class ConcertUI extends javax.swing.JFrame {
         e02.setBackground(new java.awt.Color(204, 204, 204));
         e02.setForeground(new java.awt.Color(204, 204, 204));
         e02.setText("e02");
+        e02.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookSilverSeat(evt);
+            }
+        });
 
         a02.setBackground(new java.awt.Color(255, 204, 0));
         a02.setForeground(new java.awt.Color(255, 204, 0));
@@ -850,6 +1136,11 @@ public class ConcertUI extends javax.swing.JFrame {
         h09.setBackground(new java.awt.Color(102, 51, 0));
         h09.setForeground(new java.awt.Color(102, 51, 0));
         h09.setText("h09");
+        h09.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bookBronzeSeat(evt);
+            }
+        });
 
         jLabel12.setText("F");
 
