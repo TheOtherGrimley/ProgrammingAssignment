@@ -1719,6 +1719,8 @@ public class ConcertUI extends javax.swing.JFrame {
     private void bookGoldSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookGoldSeat
         // TODO add your handling code here:
         
+        JButton buttonClicked = (JButton) evt.getComponent();
+        
         String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
         if(purchaserName == null) { }
         else if(purchaserName.equals(""))
@@ -1726,12 +1728,18 @@ public class ConcertUI extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null,"Please enter a valid purchaser name.");
             bookGoldSeat(evt);
         }
+        
         else
         {
-            JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
+            
             boolean hasBackstagePass = false;
             Random r = new Random();
             int chance = r.nextInt(11);
+            for(int i = 0; i < 90; i++){
+                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
+                    _s.seatArray[i].setCustomerName(purchaserName);
+                }
+            }
             if (chance == 2)
             {
                 hasBackstagePass = true;
@@ -1745,6 +1753,7 @@ public class ConcertUI extends javax.swing.JFrame {
                 } 
             }
             evt.getComponent().setBackground(Color.red);
+            JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
         }
         
     }//GEN-LAST:event_bookGoldSeat
@@ -1783,6 +1792,7 @@ public class ConcertUI extends javax.swing.JFrame {
 
     private void bookSilverSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookSilverSeat
         // TODO add your handling code here:
+        JButton buttonClicked = (JButton) evt.getComponent();
          String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
         if(purchaserName == null) { }
         else if(purchaserName.equals(""))
@@ -1793,27 +1803,20 @@ public class ConcertUI extends javax.swing.JFrame {
         else
         {
             JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
-            for(int i=0;i<=0;i++)
-            {
-                if(_s.seatArray[i].getSeatNumber() == evt.getComponent().getName())
-                {
+            for(int i = 0; i < 90; i++){
+                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
                     _s.seatArray[i].setCustomerName(purchaserName);
+                    _s.seatArray[i].setExtra("1");
                 }
             }
             JOptionPane.showMessageDialog(null,"This customer is entitled to a free program for the concert");
             evt.getComponent().setBackground(Color.red);
         }
-        for (int i =0;i<=90;i++)
-                {
-                    if (_s.seatArray[i].getCustomerName().equals(purchaserName))
-                    {
-                        _s.seatArray[i].setExtra("1");
-                    }
-                } 
     }//GEN-LAST:event_bookSilverSeat
 
     private void bookBronzeSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookBronzeSeat
         // TODO add your handling code here:
+        JButton buttonClicked = (JButton) evt.getComponent();
         String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
         if(purchaserName == null) { }
         else if(purchaserName.equals(""))
@@ -1824,6 +1827,12 @@ public class ConcertUI extends javax.swing.JFrame {
         else
         {
             JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
+            for(int i = 0; i < 90; i++){
+                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
+                    _s.seatArray[i].setCustomerName(purchaserName);
+                    _s.seatArray[i].setExtra("1");
+                }
+            }
             evt.getComponent().setBackground(Color.red);
         }
         
