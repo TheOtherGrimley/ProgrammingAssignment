@@ -176,6 +176,11 @@ public class ConcertUI extends javax.swing.JFrame {
         jLabel5.setText("   1        2       3        4        5");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
+                formWindowClosing(evt);
+            }
+        });
 
         newConcertButton.setText("New Concert");
         newConcertButton.setToolTipText("");
@@ -1872,6 +1877,10 @@ public class ConcertUI extends javax.swing.JFrame {
         }
         }
     }//GEN-LAST:event_bookBronzeSeat
+
+    private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+        _s.onClose();
+    }//GEN-LAST:event_formWindowClosing
 
     /**
      * @param args the command line arguments
