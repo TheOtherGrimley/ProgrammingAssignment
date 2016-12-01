@@ -1,4 +1,1 @@
-ConcertName, Marty Marley and the Wailers 
-BronzePrice, 20.23
-SilverPrice, 26.70
-GoldPrice, 35.16
+Marty Marley and the Wailers,2013-07-16,20.23,26.70,35.16

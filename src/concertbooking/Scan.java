@@ -9,6 +9,8 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -18,8 +20,10 @@ import java.util.Scanner;
 public class Scan {
     private Scanner seatDetails = null;
     private Scanner concertDetails = null;
-    PrintWriter writer = null;    
+    BufferedWriter writer = null;    
     public Seat[] seatArray = new Seat[90];
+    public Concert[] concerts = null;
+    
     
 
     
@@ -36,12 +40,12 @@ public class Scan {
         }
         catch (Exception e){ System.out.println(e); }
         
-        fillArray();
+        fillSeats();
     }
     
     public void onClose(){
         try{
-        writer = new PrintWriter(new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/src/concertbooking/SeatDetails.txt")));
+        writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/src/concertbooking/SeatDetails.txt"));
         for(int i = 0; i < 90; i++){
             writer.append(seatArray[i].getSeatNumber()+","+seatArray[i].getSeatTier()+","+seatArray[i].getCustomerName()+","+seatArray[i].printExtra()+", \n");
         }
@@ -52,8 +56,8 @@ public class Scan {
             
         }
     }
-    
-    private void fillArray(){
+        
+    private void fillSeats(){
         for(int i = 0; i < 90; i++){
             //while(seatDetails.hasNext()){
                 seatArray[i] = new Seat();
