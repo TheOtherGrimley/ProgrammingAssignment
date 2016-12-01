@@ -1,5 +1,5 @@
-a01,gold,Jerry,0, 
-a02,gold,Jerry's wife,0, 
+a01,gold,,0, 
+a02,gold,,0, 
 a03,gold,,0, 
 a04,gold,,0, 
 a05,gold,,0, 

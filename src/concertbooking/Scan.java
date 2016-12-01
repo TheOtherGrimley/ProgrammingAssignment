@@ -22,7 +22,6 @@ public class Scan {
     private Scanner concertDetails = null;
     BufferedWriter writer = null;    
     public Seat[] seatArray = new Seat[90];
-    public Concert[] concerts = null;
     
     
 
@@ -59,14 +58,30 @@ public class Scan {
         
     private void fillSeats(){
         for(int i = 0; i < 90; i++){
-            //while(seatDetails.hasNext()){
-                seatArray[i] = new Seat();
+            if(i>=0 && i<30){
+                seatArray[i] = new GoldSeat();
                 seatArray[i].setSeatNumber(seatDetails.next());
                 seatArray[i].setSeatTier(seatDetails.next());
                 seatArray[i].setCustomerName(seatDetails.next());
                 seatArray[i].setExtra(seatDetails.next());
                 seatDetails.nextLine();
-            //}
+            }
+            if(i>=30 && i<60){
+                seatArray[i] = new SilverSeat();
+                seatArray[i].setSeatNumber(seatDetails.next());
+                seatArray[i].setSeatTier(seatDetails.next());
+                seatArray[i].setCustomerName(seatDetails.next());
+                seatArray[i].setExtra(seatDetails.next());
+                seatDetails.nextLine();
+            }
+            if(i>=60 && i<90){
+                seatArray[i] = new BronzeSeat();
+                seatArray[i].setSeatNumber(seatDetails.next());
+                seatArray[i].setSeatTier(seatDetails.next());
+                seatArray[i].setCustomerName(seatDetails.next());
+                seatArray[i].setExtra(seatDetails.next());
+                seatDetails.nextLine();
+            }
         }
         
     

@@ -6,10 +6,11 @@
 package concertbooking;
 
 import java.awt.Color;
-import java.awt.Component;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.JButton;
 
@@ -184,6 +185,11 @@ public class ConcertUI extends javax.swing.JFrame {
 
         newConcertButton.setText("New Concert");
         newConcertButton.setToolTipText("");
+        newConcertButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                newConcertButtonMouseClicked(evt);
+            }
+        });
         newConcertButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 newConcertButtonActionPerformed(evt);
@@ -1716,59 +1722,12 @@ public class ConcertUI extends javax.swing.JFrame {
     }//GEN-LAST:event_exitButtonActionPerformed
 
     private void bookGoldSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookGoldSeat
-        // TODO add your handling code here:
-        
-        JButton buttonClicked = (JButton) evt.getComponent();
-        
-        if(buttonClicked.getBackground().equals(Color.red)){
-            int dialogueResult = JOptionPane.showConfirmDialog(null, "Confirm unbooking of this seat?", "unbook", 2);
-            if(dialogueResult == 0){
-                for(int i = 0; i < 90; i++){
-                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
-                    _s.seatArray[i].setCustomerName("");
-                    _s.seatArray[i].setExtra("0");
-                    buttonClicked.setBackground(new java.awt.Color(255, 204, 0));
-                }
-            }
+        JButton b = (JButton)evt.getComponent();
+        for (int i = 0; i < 90; i++){
+            if (_s.seatArray[i].getSeatNumber().equals(b.getText())){
+                _s.seatArray[i].book(b);
             }
         }
-        else{
-        String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
-        if(purchaserName == null) { }
-        else if(purchaserName.equals(""))
-        {
-            JOptionPane.showMessageDialog(null,"Please enter a valid purchaser name.");
-            bookGoldSeat(evt);
-        }
-        
-        else
-        {
-            
-            boolean hasBackstagePass = false;
-            Random r = new Random();
-            int chance = r.nextInt(11);
-            for(int i = 0; i < 90; i++){
-                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
-                    _s.seatArray[i].setCustomerName(purchaserName);
-                }
-            }
-            if (chance == 2)
-            {
-                hasBackstagePass = true;
-                JOptionPane.showMessageDialog(null,"The purchaser of this seat has one a backstage pass for tonights concert.");
-                for (int i =0;i<=90;i++)
-                {
-                    if (_s.seatArray[i].getCustomerName().equals(purchaserName))
-                    {
-                        _s.seatArray[i].setExtra("1");
-                    }
-                } 
-            }
-            evt.getComponent().setBackground(Color.red);
-            JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
-        }
-        }
-        
     }//GEN-LAST:event_bookGoldSeat
 
     
@@ -1804,83 +1763,61 @@ public class ConcertUI extends javax.swing.JFrame {
     }//GEN-LAST:event_bookingsByCustomer
 
     private void bookSilverSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookSilverSeat
-        // TODO add your handling code here:
-        JButton buttonClicked = (JButton) evt.getComponent();
-        if(buttonClicked.getBackground().equals(Color.red)){
-            int dialogueResult = JOptionPane.showConfirmDialog(null, "Confirm unbooking of this seat?", "unbook", 2);
-            if(dialogueResult == 0){
-                for(int i = 0; i < 90; i++){
-                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
-                    _s.seatArray[i].setCustomerName("");
-                    _s.seatArray[i].setExtra("0");
-                    buttonClicked.setBackground(new java.awt.Color(204, 204, 204));
-                }
+        JButton b = (JButton)evt.getComponent();
+        for (int i = 0; i < 90; i++){
+            if (_s.seatArray[i].getSeatNumber().equals(b.getText())){
+                _s.seatArray[i].book(b);
             }
-            }
-        }
-        else{
-         String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
-        if(purchaserName == null) { }
-        else if(purchaserName.equals(""))
-        {
-            JOptionPane.showMessageDialog(null,"Please enter a valid purchaser name.");
-            bookSilverSeat(evt);
-        }
-        else
-        {
-            JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
-            for(int i = 0; i < 90; i++){
-                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
-                    _s.seatArray[i].setCustomerName(purchaserName);
-                    _s.seatArray[i].setExtra("1");
-                }
-            }
-            JOptionPane.showMessageDialog(null,"This customer is entitled to a free program for the concert");
-            evt.getComponent().setBackground(Color.red);
-        }
         }
     }//GEN-LAST:event_bookSilverSeat
 
     private void bookBronzeSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookBronzeSeat
-        // TODO add your handling code here:
-        JButton buttonClicked = (JButton) evt.getComponent();
-        if(buttonClicked.getBackground().equals(Color.red)){
-            int dialogueResult = JOptionPane.showConfirmDialog(null, "Confirm unbooking of this seat?", "unbook", 2);
-            if(dialogueResult == 0){
-                for(int i = 0; i < 90; i++){
-                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
-                    _s.seatArray[i].setCustomerName("");
-                    _s.seatArray[i].setExtra("0");
-                    buttonClicked.setBackground(new java.awt.Color(102, 51, 0));
-                }
+        JButton b = (JButton)evt.getComponent();
+        for (int i = 0; i < 90; i++){
+            if (_s.seatArray[i].getSeatNumber().equals(b.getText())){
+                _s.seatArray[i].book(b);
             }
-            }
-        }
-        else{
-        String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
-        if(purchaserName == null) { }
-        else if(purchaserName.equals(""))
-        {
-            JOptionPane.showMessageDialog(null,"Please enter a valid purchaser name.");
-            bookBronzeSeat(evt);
-        }
-        else
-        {
-            JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
-            for(int i = 0; i < 90; i++){
-                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
-                    _s.seatArray[i].setCustomerName(purchaserName);
-                    _s.seatArray[i].setExtra("1");
-                }
-            }
-            evt.getComponent().setBackground(Color.red);
-        }
         }
     }//GEN-LAST:event_bookBronzeSeat
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
         _s.onClose();
     }//GEN-LAST:event_formWindowClosing
+
+    private void newConcertButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_newConcertButtonMouseClicked
+        BufferedWriter writer = null;
+        try {
+            // TODO add your handling code here:
+            writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/src/concertbooking/ConcertDetails.txt", true));
+            String newConcertName = JOptionPane.showInputDialog("Please enter a name for the new concert:");
+            writer.write(newConcertName+",");
+            String newConcertDate = JOptionPane.showInputDialog("Please enter a date for the new concert:");
+            writer.write(newConcertDate+",");
+            String newBronzePrice = JOptionPane.showInputDialog("Enter an initial bronze seat price for the new concert:");
+            writer.write("Bronze Price: "+newBronzePrice+",");
+            String newSilverPrice = JOptionPane.showInputDialog("Enter an initial siver seat price for the new concert:");
+            writer.write("Silver Price: "+newSilverPrice+",");
+            String newGoldPrice = JOptionPane.showInputDialog("Enter an initial gold seat price for the new concert:");
+            writer.write("Gold Price: "+newGoldPrice+"\n");
+            this.setVisible(false);
+            for(int i =0;i<90;i++)
+             {
+                _s.seatArray[i].setCustomerName("");
+                _s.seatArray[i].setExtra("0");
+            }
+            ConcertUI newUI = new ConcertUI(_s);     
+            newUI.setVisible(true);
+            
+        } catch (IOException ex) {
+            Logger.getLogger(ConcertUI.class.getName()).log(Level.SEVERE, null, ex);
+        } finally {
+            try {
+                writer.close();
+            } catch (IOException ex) {
+                Logger.getLogger(ConcertUI.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_newConcertButtonMouseClicked
 
     /**
      * @param args the command line arguments
