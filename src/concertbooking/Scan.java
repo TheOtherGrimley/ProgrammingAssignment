@@ -32,7 +32,7 @@ public class Scan {
         concertDetails = new Scanner(new File(System.getProperty("user.dir") + "/src/concertbooking/ConcertDetails.txt"));
         concertDetails.useDelimiter(",");
         
-        writer = new PrintWriter(new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/src/concertbooking/SeatDetails.temp")));
+        
         }
         catch (Exception e){ System.out.println(e); }
         
@@ -40,11 +40,17 @@ public class Scan {
     }
     
     public void onClose(){
+        try{
+        writer = new PrintWriter(new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/src/concertbooking/SeatDetails.txt")));
         for(int i = 0; i < 90; i++){
             writer.append(seatArray[i].getSeatNumber()+","+seatArray[i].getSeatTier()+","+seatArray[i].getCustomerName()+","+seatArray[i].printExtra()+", \n");
         }
         writer.flush();
         writer.close();
+        }
+        catch(Exception e){
+            
+        }
     }
     
     private void fillArray(){

@@ -300,12 +300,6 @@ public class ConcertUI extends javax.swing.JFrame {
                 .addContainerGap(48, Short.MAX_VALUE))
         );
 
-        jPanel4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                bookBronzeSeat(evt);
-            }
-        });
-
         e03.setBackground(new java.awt.Color(204, 204, 204));
         e03.setForeground(new java.awt.Color(204, 204, 204));
         e03.setText("e03");
@@ -1721,6 +1715,19 @@ public class ConcertUI extends javax.swing.JFrame {
         
         JButton buttonClicked = (JButton) evt.getComponent();
         
+        if(buttonClicked.getBackground().equals(Color.red)){
+            int dialogueResult = JOptionPane.showConfirmDialog(null, "Confirm unbooking of this seat?", "unbook", 2);
+            if(dialogueResult == 0){
+                for(int i = 0; i < 90; i++){
+                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
+                    _s.seatArray[i].setCustomerName("");
+                    _s.seatArray[i].setExtra("0");
+                    buttonClicked.setBackground(new java.awt.Color(255, 204, 0));
+                }
+            }
+            }
+        }
+        else{
         String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
         if(purchaserName == null) { }
         else if(purchaserName.equals(""))
@@ -1754,6 +1761,7 @@ public class ConcertUI extends javax.swing.JFrame {
             }
             evt.getComponent().setBackground(Color.red);
             JOptionPane.showMessageDialog(null,"This seat has been successfully booked by "+purchaserName);
+        }
         }
         
     }//GEN-LAST:event_bookGoldSeat
@@ -1793,6 +1801,19 @@ public class ConcertUI extends javax.swing.JFrame {
     private void bookSilverSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookSilverSeat
         // TODO add your handling code here:
         JButton buttonClicked = (JButton) evt.getComponent();
+        if(buttonClicked.getBackground().equals(Color.red)){
+            int dialogueResult = JOptionPane.showConfirmDialog(null, "Confirm unbooking of this seat?", "unbook", 2);
+            if(dialogueResult == 0){
+                for(int i = 0; i < 90; i++){
+                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
+                    _s.seatArray[i].setCustomerName("");
+                    _s.seatArray[i].setExtra("0");
+                    buttonClicked.setBackground(new java.awt.Color(204, 204, 204));
+                }
+            }
+            }
+        }
+        else{
          String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
         if(purchaserName == null) { }
         else if(purchaserName.equals(""))
@@ -1812,11 +1833,25 @@ public class ConcertUI extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null,"This customer is entitled to a free program for the concert");
             evt.getComponent().setBackground(Color.red);
         }
+        }
     }//GEN-LAST:event_bookSilverSeat
 
     private void bookBronzeSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookBronzeSeat
         // TODO add your handling code here:
         JButton buttonClicked = (JButton) evt.getComponent();
+        if(buttonClicked.getBackground().equals(Color.red)){
+            int dialogueResult = JOptionPane.showConfirmDialog(null, "Confirm unbooking of this seat?", "unbook", 2);
+            if(dialogueResult == 0){
+                for(int i = 0; i < 90; i++){
+                if(_s.seatArray[i].getSeatNumber().equals(buttonClicked.getText())){
+                    _s.seatArray[i].setCustomerName("");
+                    _s.seatArray[i].setExtra("0");
+                    buttonClicked.setBackground(new java.awt.Color(102, 51, 0));
+                }
+            }
+            }
+        }
+        else{
         String purchaserName = JOptionPane.showInputDialog("Please enter the purchaser name:");
         if(purchaserName == null) { }
         else if(purchaserName.equals(""))
@@ -1835,7 +1870,7 @@ public class ConcertUI extends javax.swing.JFrame {
             }
             evt.getComponent().setBackground(Color.red);
         }
-        
+        }
     }//GEN-LAST:event_bookBronzeSeat
 
     /**
