@@ -10,9 +10,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
@@ -33,14 +30,8 @@ public class Scan {
         try{
         seatDetails = new Scanner(new File(System.getProperty("user.dir") + "/src/concertbooking/SeatDetails.txt"));
         seatDetails.useDelimiter(",");
-        
-        
-        
-        
-        
         }
-        catch (Exception e){ System.out.println(e); }
-        
+        catch (Exception e){ System.out.println(e);}
         fillSeats();
     }
     
@@ -62,10 +53,7 @@ public class Scan {
             return cDetails;
         }
         catch(Exception e){}
-        
-        return null;
-        
-        
+            return null;
     }
     
     

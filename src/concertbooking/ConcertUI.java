@@ -1800,24 +1800,39 @@ public class ConcertUI extends javax.swing.JFrame {
 
     private void newConcertButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_newConcertButtonMouseClicked
         BufferedWriter writer = null;
+        boolean valid = true;
         try {
-            // TODO add your handling code here:
             writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/src/concertbooking/ConcertDetails.txt", true));
-            String newConcertName = JOptionPane.showInputDialog("Please enter a name for the new concert:");
-            writer.write(newConcertName+",");
-            String newConcertDate = JOptionPane.showInputDialog("Please enter a date for the new concert:");
-            writer.write(newConcertDate+",");
-            String newBronzePrice = JOptionPane.showInputDialog("Enter an initial bronze seat price for the new concert:");
-            writer.write(newBronzePrice+",");
-            String newSilverPrice = JOptionPane.showInputDialog("Enter an initial siver seat price for the new concert:");
-            writer.write(newSilverPrice+",");
-            String newGoldPrice = JOptionPane.showInputDialog("Enter an initial gold seat price for the new concert:");
-            writer.write(newGoldPrice+",\n");
-            this.setVisible(false);
-            for(int i =0;i<90;i++)
-             {
-                _s.seatArray[i].setCustomerName("");
-                _s.seatArray[i].setExtra("0");
+            while(valid){
+                String newConcertName = JOptionPane.showInputDialog("Please enter a name for the new concert:");
+                if(newConcertName == null){valid = false;break;}
+                else{writer.write(newConcertName+",");}
+                
+                String newConcertDate = JOptionPane.showInputDialog("Please enter a date for the new concert (dd/mm/yyyy):");
+                if(newConcertDate == null){valid = false;break;}
+                else{
+                    if(confirmDate(newConcertDate)){writer.write(newConcertDate+",");}
+                    else{JOptionPane.showMessageDialog(null, "Error with date, please try again"); newConcertButtonMouseClicked(evt);}
+                }
+                
+                String newBronzePrice = JOptionPane.showInputDialog("Enter an initial bronze seat price for the new concert:");
+                if(newBronzePrice == null){valid = false;break;}
+                else{writer.write(newBronzePrice+",");}
+                
+                String newSilverPrice = JOptionPane.showInputDialog("Enter an initial siver seat price for the new concert:");
+                if(newSilverPrice == null){valid = false;break;}
+                else{writer.write(newSilverPrice+",");}
+                
+                String newGoldPrice = JOptionPane.showInputDialog("Enter an initial gold seat price for the new concert:");
+                if(newGoldPrice == null){valid = false;break;}
+                else{writer.write(newGoldPrice+",\n");}
+                
+                this.setVisible(false);
+                for(int i =0;i<90;i++)
+                 {
+                    _s.seatArray[i].setCustomerName("");
+                    _s.seatArray[i].setExtra("0");
+                }
             }
             
             
@@ -1825,15 +1840,49 @@ public class ConcertUI extends javax.swing.JFrame {
             Logger.getLogger(ConcertUI.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
             try {
-                writer.close();
-                ConcertUI newUI = new ConcertUI(_s);     
-                newUI.setVisible(true);
+                if(valid){
+                    writer.close();
+                    ConcertUI newUI = new ConcertUI(_s);     
+                    newUI.setVisible(true);
+                }
             } catch (IOException ex) {
                 Logger.getLogger(ConcertUI.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }//GEN-LAST:event_newConcertButtonMouseClicked
 
+    private boolean confirmDate(String date){
+        String[] dateArray = date.split("/");
+        boolean correct = true;
+        try {
+            int b = -1;
+            for (int i = 0; i < 3; i++) {
+                b = Integer.parseInt(dateArray[i]);
+                switch(i){
+                    case 0:
+                        if(b>31 || b <= 0 ){
+                            correct = false;
+                        }
+                        break;
+                    case 1:
+                        if(b>12 || b <= 0 ){
+                            correct = false;
+                        }
+                        break;
+                    case 2:
+                        if(b>9999 || b <= 0 ){
+                            correct = false;
+                        }
+                        break;
+                }
+            }
+        } 
+        catch (Exception e) {
+            correct = false;
+        }
+        return correct;
+    }
+    
     private void setLabels(){
         String[] cDetails = _s.readConcert();
         cName.setText(cDetails[0]);
@@ -1846,7 +1895,7 @@ public class ConcertUI extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
+    public void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.

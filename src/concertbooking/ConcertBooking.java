@@ -19,15 +19,6 @@ public class ConcertBooking {
          Scan s = new Scan();
         ConcertUI ui = new ConcertUI(s);
         ui.setVisible(true);
-        
-       
-        
-        // \/ \/ ignore this shit \/ \/
-        /*for(int i = 0; i<90; i++){
-            if (s.seatArray[i].getSeatNumber().equals("g03")){
-                System.out.println(s.seatArray[i].getCustomerName());
-            }
-        }*/
     }
     
     
