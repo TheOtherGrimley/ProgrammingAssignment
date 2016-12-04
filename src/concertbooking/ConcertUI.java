@@ -31,7 +31,7 @@ public class ConcertUI extends javax.swing.JFrame {
     
     
     
-    
+    //set up UI that uses a scanner to read the seat array
     public ConcertUI(Scan s) {
         initComponents();
         _s = s;
@@ -1668,7 +1668,7 @@ public class ConcertUI extends javax.swing.JFrame {
 
     private void initSeats(){
         int count1 = 0;
-        
+        //set up array for all buttons on the UI
         JButton[] a = new JButton[90];
         //ArrayList b = new ArrayList();
         //Component[] b = new Component[101];
@@ -1694,6 +1694,7 @@ public class ConcertUI extends javax.swing.JFrame {
         }
         for (int i = 0; i < 90; i++){
             for (int j = 0; j < 90; j++){
+                //checking which seat tier of seating has been clicked and sets it to red
                 if (_s.seatArray[i].getSeatNumber().equals(a[j].getText()) && !_s.seatArray[i].getCustomerName().equals("")){
                     if(_s.seatArray[i].getSeatTier().equals("bronze")){
                         a[j].setBackground(Color.red);
@@ -1711,6 +1712,7 @@ public class ConcertUI extends javax.swing.JFrame {
         }
     }
     
+    //using the check if booked button
     private void checkIfBookedButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_checkIfBookedButtonMouseClicked
         String checkSeat = JOptionPane.showInputDialog(null, "Enter the seat you would like to check:");
         if (checkSeat.equals("")) {
@@ -1722,7 +1724,9 @@ public class ConcertUI extends javax.swing.JFrame {
                     JOptionPane.showMessageDialog(null, "404: Seat not found.");
                 } 
                 else{
-                    if (_s.seatArray[i].getSeatNumber().equals(checkSeat)) {
+                    if (_s.seatArray[i].getSeatNumber().equals(checkSeat)) 
+                    {//using the scanner to check if the customer name is blanks=
+                        //if the field is blank then the seat has not been booked
                         if (_s.seatArray[i].getCustomerName().equals("")) {
                             JOptionPane.showMessageDialog(null, "This seat has not been booked.");
                             break;
@@ -1740,7 +1744,8 @@ public class ConcertUI extends javax.swing.JFrame {
         _s.onClose();
         System.exit(0); // TODO add your handling code here:
     }//GEN-LAST:event_exitButtonActionPerformed
-
+//inherits the book method from the seat class 
+    //uses the event component to find out which button has been clicked
     private void bookGoldSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookGoldSeat
         JButton b = (JButton)evt.getComponent();
         for (int i = 0; i < 90; i++){
@@ -1751,7 +1756,7 @@ public class ConcertUI extends javax.swing.JFrame {
     }//GEN-LAST:event_bookGoldSeat
 
     private void bookingsByCustomer(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookingsByCustomer
-        // TODO add your handling code here:
+        //scans the seat array for the inputted text in the customer name field
         String searchedName =JOptionPane.showInputDialog("Please enter customer name you are searching for:");
         for(int i=0;i<=90;i++)
         {
@@ -1775,7 +1780,8 @@ public class ConcertUI extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_bookingsByCustomer
-
+//inherits the book method from the seat class 
+    //uses the event component to find out which button has been clicked
     private void bookSilverSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookSilverSeat
         JButton b = (JButton)evt.getComponent();
         for (int i = 0; i < 90; i++){
@@ -1784,7 +1790,8 @@ public class ConcertUI extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_bookSilverSeat
-
+//inherits the book method from the seat class 
+    //uses the event component to find out which button has been clicked
     private void bookBronzeSeat(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bookBronzeSeat
         JButton b = (JButton)evt.getComponent();
         for (int i = 0; i < 90; i++){
@@ -1802,6 +1809,7 @@ public class ConcertUI extends javax.swing.JFrame {
         BufferedWriter writer = null;
         boolean valid = true;
         try {
+            //writes the new concert details to a text file
             writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/src/concertbooking/ConcertDetails.txt", true));
             while(valid){
                 String newConcertName = JOptionPane.showInputDialog("Please enter a name for the new concert:");
@@ -1814,7 +1822,7 @@ public class ConcertUI extends javax.swing.JFrame {
                     if(confirmDate(newConcertDate)){writer.write(newConcertDate+",");}
                     else{JOptionPane.showMessageDialog(null, "Error with date, please try again"); newConcertButtonMouseClicked(evt);}
                 }
-                
+                //sets the prices for the new concert
                 String newBronzePrice = JOptionPane.showInputDialog("Enter an initial bronze seat price for the new concert:");
                 if(newBronzePrice == null){valid = false;break;}
                 else{writer.write(newBronzePrice+",");}
@@ -1841,6 +1849,7 @@ public class ConcertUI extends javax.swing.JFrame {
         } finally {
             try {
                 if(valid){
+                    //closes the writer and makes the new UI visible
                     writer.close();
                     ConcertUI newUI = new ConcertUI(_s);     
                     newUI.setVisible(true);
@@ -1850,7 +1859,7 @@ public class ConcertUI extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_newConcertButtonMouseClicked
-
+//splits the date into an array and uses validation to  check if the date is valid
     private boolean confirmDate(String date){
         String[] dateArray = date.split("/");
         boolean correct = true;
@@ -1884,6 +1893,7 @@ public class ConcertUI extends javax.swing.JFrame {
     }
     
     private void setLabels(){
+        //sets the labels at the top of the new UI
         String[] cDetails = _s.readConcert();
         cName.setText(cDetails[0]);
         cDate.setText(cDetails[1]);

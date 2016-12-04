@@ -20,6 +20,7 @@ public class Seat {
     private String _customerName;
     static Color sColor = null;
     
+    //get a set methods for the seat details
     public String getSeatNumber(){
         return _seatNumber;
     }
@@ -60,7 +61,7 @@ public class Seat {
         }
         else{return null;}
     }
-    
+    //method to book the seat of the chosen button
     public void book(JButton button) {
         if (button.getBackground().equals(Color.red)) {
             unbook(button);
@@ -75,7 +76,7 @@ public class Seat {
             }
         }
     }
-
+//method to unbook the button selected seat
     protected void unbook(JButton button) {
         int dialogueResult = JOptionPane.showConfirmDialog(null, "Confirm unbooking of this seat?", "unbook", 2);
         if (dialogueResult == 0) {

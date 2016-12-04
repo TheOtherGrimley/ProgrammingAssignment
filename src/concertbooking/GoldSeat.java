@@ -17,6 +17,7 @@ import javax.swing.JOptionPane;
 public class GoldSeat extends Seat{
     
     @Override
+    //unbooks the seat 
     protected void unbook(JButton button){
         int dialogueResult = JOptionPane.showConfirmDialog(null, "Confirm unbooking of this seat?", "unbook", 2);
             if(dialogueResult == 0){
@@ -27,6 +28,8 @@ public class GoldSeat extends Seat{
     }
     
     @Override
+    //checks if the customer has won a backstage pass
+    //sets the name for the booking
     protected void success(JButton button, String name){
         Random r = new Random();
         int chance = r.nextInt(11);

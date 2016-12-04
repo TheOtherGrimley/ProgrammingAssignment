@@ -16,6 +16,7 @@ import javax.swing.JOptionPane;
 public class SilverSeat extends Seat {
 
     @Override
+    //sets the customer name and the extra (programme) in the seat array
     protected void success(JButton button, String name) {
         JOptionPane.showMessageDialog(null, "This seat has been successfully booked by " + name);
         for (int i = 0; i < 90; i++) {

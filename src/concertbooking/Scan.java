@@ -25,7 +25,7 @@ public class Scan {
     
     
 
-    
+    //reads the seat details text file
     public Scan(){
         try{
         seatDetails = new Scanner(new File(System.getProperty("user.dir") + "/src/concertbooking/SeatDetails.txt"));
@@ -40,7 +40,8 @@ public class Scan {
             concertDetails = new Scanner(new File(System.getProperty("user.dir") + "/src/concertbooking/ConcertDetails.txt"));
             concertDetails.useDelimiter(",");
             String[] cDetails = new String[5];
-            while(concertDetails.hasNextLine()){
+            while(concertDetails.hasNextLine())
+            {//reads the concert details fro the text file and sets them in an array
                 cDetails[0] = concertDetails.next();
                 cDetails[1] = concertDetails.next();
                 cDetails[2] = concertDetails.next();
@@ -59,6 +60,7 @@ public class Scan {
     
     public void onClose(){
         try{
+            //writes all details into the text file when the program closes and saves them for later
         writer = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/src/concertbooking/SeatDetails.txt"));
         for(int i = 0; i < 90; i++){
             writer.append(seatArray[i].getSeatNumber()+","+seatArray[i].getSeatTier()+","+seatArray[i].getCustomerName()+","+seatArray[i].printExtra()+", \n");
@@ -73,6 +75,7 @@ public class Scan {
         
     private void fillSeats(){
         try {
+            //fills the seat array using the scanner and the seat details array
             for (int i = 0; i < 90; i++) {
                 if (i >= 0 && i < 30) {
                     seatArray[i] = new GoldSeat();

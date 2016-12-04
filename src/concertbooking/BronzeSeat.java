@@ -16,11 +16,13 @@ import javax.swing.JOptionPane;
 public class BronzeSeat extends Seat{
     
     @Override
+    //lets the admin know the bronze seats cant be unbooked
     protected void unbook(JButton button) {
         JOptionPane.showMessageDialog(null, "Bronze seating cannot be unbooked");
     }
     
     @Override
+    //sets the customer name for the new booking
     protected void success(JButton button, String name) {
         JOptionPane.showMessageDialog(null, "This seat has been successfully booked by " + name);
         this.setCustomerName(name);
