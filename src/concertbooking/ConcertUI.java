@@ -1841,6 +1841,7 @@ public class ConcertUI extends javax.swing.JFrame {
                     _s.seatArray[i].setCustomerName("");
                     _s.seatArray[i].setExtra("0");
                 }
+                break;
             }
             
             
